@@ -18,3 +18,4 @@
 |--------------------|----------------------------------------------------------|
 | Research Gate      | https://www.researchgate.net/                            |
 | SciHub             | http://sci-hub.se                                        |
+| Google Scholar     | https://scholar.google.com/                              |
