@@ -8,5 +8,7 @@
 | SciHub             | http://sci-hub.se/                                       |
 | Library Genesis    | https://libgen.is/                                       |
 | Directory of Open Access Journals (DOAJ) | https://doaj.org/                  |
+| Science Open       | https://about.scienceopen.com/                           |
+| Core               | https://core.ac.uk/                                      |
 
 
