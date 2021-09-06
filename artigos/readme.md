@@ -1,7 +1,8 @@
-## Search Papers
+## Papers
 
 |   App              | Link                                                     |
 |--------------------|----------------------------------------------------------|
+| Periodicos Capes   | https://www-periodicos-capes-gov-br.ezl.periodicos.capes.gov.br/index.php? |
 | Research Gate      | https://www.researchgate.net/                            |
 | Google Scholar     | https://scholar.google.com/                              |
 | SciHub             | http://sci-hub.se/                                       |
