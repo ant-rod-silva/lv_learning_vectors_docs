@@ -8,10 +8,10 @@
 
 ## Shared Notes
 
-|   App          | Link                       | Pricing  | Platform |
-|----------------|----------------------------|----------|----------|
-| Google Keep    | https://www.zotero.org/    | Free     | Web      |
-| Bundled Notes  | https://bundlednotes.com/  | Free     | Web      |
+|   App          | Link                       | Pricing        | Platform    |
+|----------------|----------------------------|----------------|-------------|
+| Google Keep    | https://keep.google.com/   | Free           | Web/Android |
+| Bundled Notes  | https://bundlednotes.com/  | Free/Comercial | Web/Android |
 
 ## Search
 
