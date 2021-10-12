@@ -104,3 +104,12 @@ echo "Configuring apache server";
 a2dissite 000-default
 service apache2 reload
 
+echo "Create database $DB"
+mysql -uroot -e "CREATE DATABASE $DB CHARACTER SET utf8 COLLATE utf8_general_ci";
+
+echo "Create user $USER"
+mysql -uroot -e "CREATE USER $USER@'127.0.0.1' IDENTIFIED BY '$PASS'";
+
+echo "Grant permissions"
+mysql -uroot -e "GRANT ALL ON $DB.* TO $USER@'127.0.0.1'"
+
