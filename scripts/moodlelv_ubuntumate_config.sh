@@ -102,6 +102,11 @@ sudo mysql -u root <<MYSQL_SCRIPT
 CREATE DATABASE $DB CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 CREATE USER $DBUSER@'127.0.0.1' IDENTIFIED BY '$DBPASS';
 GRANT ALL ON $DB.* TO $DBUSER@'127.0.0.1';
+SET GLOBAL innodb_file_format = BARRACUDA;
+SET GLOBAL innodb_large_prefix = ON;
+SET GLOBAL innodb_file_per_table = ON;
+SET GLOBAL innodb_default_row_format = dynamic;
+SET GLOBAL innodb_strict_mode = "ON";
 UPDATE mysql.user SET plugin = 'mysql_native_password', authentication_string = PASSWORD('$DBPASS') WHERE User = 'root';
 UPDATE mysql.user SET plugin = 'mysql_native_password', authentication_string = PASSWORD('$DBPASS') WHERE User = '$DBUSER';
 FLUSH PRIVILEGES;
