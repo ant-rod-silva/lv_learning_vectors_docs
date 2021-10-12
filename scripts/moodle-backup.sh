@@ -58,6 +58,8 @@ zip -qr $BACKUPPATH/moodle.zip ${WEBROOT}
 echo "Backing up the moodledata files..."
 zip -qr $BACKUPPATH/moodledata.zip ${DATA}
 
+chown -R www-data:www-data ${APPPATH}/${DATA}
+
 echo "================================================"
 echo "Moodle Backup Successfully Completed"
 echo "================================================"
