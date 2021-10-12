@@ -7,6 +7,10 @@
 #
 # License: GNU GPL 3.0 or later.
 
+DB='c2moodle'
+DBUSER='c2helpclass'
+DBPASS='abcd1234'
+
 # Make sure only root can run our script
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root" 1>&2
@@ -108,8 +112,8 @@ echo "Create database $DB"
 
 sudo mysql -u root <<MYSQL_SCRIPT
 CREATE DATABASE $DB CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-CREATE USER $USER@'127.0.0.1' IDENTIFIED BY '$PASS';
-GRANT ALL ON $DB.* TO $USER@'127.0.0.1';
+CREATE USER $DBUSER@'127.0.0.1' IDENTIFIED BY '$DBPASS';
+GRANT ALL ON $DB.* TO $DBUSER@'127.0.0.1';
 FLUSH PRIVILEGES;
 MYSQL_SCRIPT
 
