@@ -114,3 +114,21 @@ MYSQL_SCRIPT
 
 echo "Installing mysql-workbench"
 apt-get install -y mysql-workbench
+
+echo "Creating Moodle Virtualhost"
+
+echo "#### moodle
+<VirtualHost *:80>
+ServerName localhost
+DocumentRoot /var/www/moodle
+<Directory /var/www/moodle>
+Options +FollowSymlinks
+AllowOverride All
+Require all granted
+</Directory>
+ErrorLog /var/www/moodle/log/error.log
+CustomLog /var/www/moodle/log/access.log combined
+</VirtualHost>" > /etc/apache2/sites-available/moodle.conf
+
+ln -s /etc/apache2/sites-available/moodle.conf /etc/apache2/sites-enabled/moodle.conf
+sudo service apache2 restart
