@@ -45,8 +45,6 @@ apt-get remove -y --purge \
 
 apt autoremove
 
-
-
 echo "Apt update";
 apt-get update
 apt-get upgrade -y
@@ -118,3 +116,6 @@ CREATE USER $DBUSER@'127.0.0.1' IDENTIFIED BY '$DBPASS';
 GRANT ALL ON $DB.* TO $DBUSER@'127.0.0.1';
 FLUSH PRIVILEGES;
 MYSQL_SCRIPT
+
+echo "Installing mysql-workbench"
+apt-get install -y mysql-workbench
