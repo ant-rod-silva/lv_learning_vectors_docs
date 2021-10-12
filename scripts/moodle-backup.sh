@@ -1,10 +1,14 @@
-# Moodle Site Backup version 1.1
-# Copyright 2005-2021 TNG Consulting Inc (www.tngconsulting.ca) / Antonio Rodrigo dos Santos Silva
-# Author: Michael Milette
+# Moodle Site Backup version 1.2
+#
+# Copyright: 
+#   2005-2021 
+#   TNG Consulting Inc (www.tngconsulting.ca) - Author: Michael Milette
+#   Antonio Rodrigo dos Santos Silva
+#
 # License: GNU GPL 3.0 or later.
 #
 # Installation: 
-#   Place this script in the APPPATH folder.
+#   Place this script in the APPPATH folder (ex: /var/www).
 #   Run it as "sudo" or with sufficient permissions.
 #
 # Cron Example:
@@ -13,6 +17,7 @@
 # -------------------------------------------------------------------------------------
 # Configuration section - Assumes Moodle's WEBROOT and DATA are under the APPPATH.
 # -------------------------------------------------------------------------------------
+#
 TIMEZONE="America/Fortaleza"
 NOW=$(TZ=":$TIMEZONE" date +%Y-%m-%dT%H-%M-%S)
 PHP="/usr/bin/php"
