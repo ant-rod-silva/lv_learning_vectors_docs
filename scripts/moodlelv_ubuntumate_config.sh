@@ -117,4 +117,7 @@ GRANT ALL ON $DB.* TO $DBUSER@'127.0.0.1';
 FLUSH PRIVILEGES;
 MYSQL_SCRIPT
 
+echo "Directory permissions"
+sudo usermod -a -G www-data root
+sudo usermod -a -G www-data $TERMINALUSER
 
