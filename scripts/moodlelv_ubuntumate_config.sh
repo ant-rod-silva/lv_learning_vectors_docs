@@ -11,6 +11,8 @@ DB='c2moodle'
 DBUSER='c2helpclass'
 DBPASS='abcd1234'
 
+TERMINALUSER='operador'
+
 # Make sure only root can run our script
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root" 1>&2
@@ -96,7 +98,7 @@ apt-get install -y \
   php-json
 
 echo "Changing permissions";
-usermod -aG www-data operador
+usermod -aG www-data $TERMINALUSER
 usermod -aG www-data root
 
 echo "Setting log files";
@@ -116,8 +118,3 @@ CREATE USER $DBUSER@'127.0.0.1' IDENTIFIED BY '$DBPASS';
 GRANT ALL ON $DB.* TO $DBUSER@'127.0.0.1';
 FLUSH PRIVILEGES;
 MYSQL_SCRIPT
-
-echo "Directory permissions"
-sudo usermod -a -G www-data root
-sudo usermod -a -G www-data $TERMINALUSER
-
