@@ -17,6 +17,25 @@ clear
 
 echo "Removing packages"
 apt-get remove -y --purge libreoffice\*
+apt-get remove -y --purge \
+  thunderbird \
+  thunderbird-dbg \
+  thunderbird-dev \
+  thunderbird-globalmenu \
+  thunderbird-gnome-support \
+  gnome-orca \
+  cups \
+  bc \
+  eject \
+  manpages \
+  ppp \
+  shotwell \
+  transmission \
+  brasero \
+  cheese
+apt autoremove
+
+
 
 echo "Apt update";
 apt-get update
