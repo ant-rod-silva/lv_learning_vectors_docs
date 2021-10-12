@@ -125,5 +125,9 @@ ErrorLog /var/www/moodle/log/error.log
 CustomLog /var/www/moodle/log/access.log combined
 </VirtualHost>" > /etc/apache2/sites-available/moodle.conf
 
+mkdir -p /var/www/moodle/log
+touch /var/www/moodle/log/error.log
+touch /var/www/moodle/log/access.log
+chown -R www-data:www-data /var/www/moodle
 ln -s /etc/apache2/sites-available/moodle.conf /etc/apache2/sites-enabled/moodle.conf
 sudo service apache2 restart
