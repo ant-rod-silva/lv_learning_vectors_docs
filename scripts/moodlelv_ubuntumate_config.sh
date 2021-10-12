@@ -32,7 +32,10 @@ apt-get remove -y --purge \
   shotwell \
   transmission \
   brasero \
-  cheese
+  cheese \
+  hexchat \
+  rhythmbox
+
 apt autoremove
 
 
