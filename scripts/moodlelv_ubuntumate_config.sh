@@ -87,9 +87,6 @@ echo "Changing permissions";
 usermod -aG www-data $TERMINALUSER
 usermod -aG www-data root
 
-service apache2 restart
-service mariadb restart
-
 echo "Configuring apache server";
 a2dissite 000-default
 service apache2 reload
