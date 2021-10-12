@@ -1,4 +1,11 @@
 #!/bin/bash
+# MoodleLV Environment Configuration 1.0
+#
+# Copyright: 
+#   2021 
+#   Antonio Rodrigo dos Santos Silva
+#
+# License: GNU GPL 3.0 or later.
 
 # Make sure only root can run our script
 if [[ $EUID -ne 0 ]]; then
