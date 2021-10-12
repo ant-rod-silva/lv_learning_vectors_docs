@@ -34,7 +34,8 @@ apt-get remove -y --purge \
   brasero \
   cheese \
   hexchat \
-  rhythmbox
+  rhythmbox \
+  pidgin
 
 apt autoremove
 
