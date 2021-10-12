@@ -102,6 +102,8 @@ sudo mysql -u root <<MYSQL_SCRIPT
 CREATE DATABASE $DB CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 CREATE USER $DBUSER@'127.0.0.1' IDENTIFIED BY '$DBPASS';
 GRANT ALL ON $DB.* TO $DBUSER@'127.0.0.1';
+UPDATE mysql.user SET plugin = 'mysql_native_password', authentication_string = PASSWORD('$DBPASS') WHERE User = 'root';
+UPDATE mysql.user SET plugin = 'mysql_native_password', authentication_string = PASSWORD('$DBPASS') WHERE User = '$DBUSER';
 FLUSH PRIVILEGES;
 MYSQL_SCRIPT
 
