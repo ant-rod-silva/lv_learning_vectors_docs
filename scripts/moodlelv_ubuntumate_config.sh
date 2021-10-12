@@ -87,8 +87,6 @@ echo "Changing permissions";
 usermod -aG www-data $TERMINALUSER
 usermod -aG www-data root
 
-echo "Setting log files";
-sudo mkdir /var/log/moodle
 service apache2 restart
 service mariadb restart
 
