@@ -30,9 +30,6 @@ apt-get remove -y --purge \
   thunderbird-globalmenu \
   thunderbird-gnome-support \
   gnome-orca \
-  cups \
-  bc \
-  eject \
   manpages \
   ppp \
   shotwell \
@@ -78,20 +75,11 @@ apt-get install -y \
   php-soap \
   php-gd \
   php-xml \
-  mariadb-server \
-  php \
-  php-common \
-  php-cli \
-  php-fpm \
-  php-mbstring \
-  php-xmlrpc \
-  php-soap \
-  php-gd \
-  php-xml \
   php-intl \
   php-mysql \
   php-zip \
   php-curl \
+  mariadb-server \
   libapache2-mod-php \
   php-json
 
