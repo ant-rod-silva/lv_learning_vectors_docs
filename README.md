@@ -14,6 +14,10 @@ Aqui encontram-se disponibilizados os recursos necessários para se instalar e c
 
 Acesse o diretório **scripts** do Github ou pela URL https://github.com/rodrigosantosbr/lv_learning_vectors/tree/main/scripts
 
+### Código-fonte
+
+Acesse o diretório **codigo_fonte** do Github ou pela URL 
+
 ### Recursos
 
 Acesse o diretório **imagens** do GitHub ou pela URL: https://github.com/rodrigosantosbr/lv_learning_vectors/tree/main/imagens
