@@ -16,7 +16,7 @@ Acesse o diretório **scripts** do Github ou pela URL https://github.com/rodrigo
 
 ### Código-fonte
 
-Acesse o diretório **codigo_fonte** do Github ou pela URL 
+Acesse o diretório **codigo_fonte** do Github ou pela URL https://github.com/rodrigosantosbr/lv_learning_vectors/tree/main/codigo_fonte
 
 ### Recursos
 
