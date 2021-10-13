@@ -1,21 +1,6 @@
 Help Class Online
 ========================
 
-- Autor: **Antonio Rodrigo dos Santos Silva**
-- Última atualização: **outubro de 2021**
-
-
-# Endereços Web úteis
-
-
-| Nome                     | URL                                                    |
-| ------------------------ |:------------------------------------------------------:|
-| Moodle 3.3.1             | https://download.moodle.org/stable33/moodle-3.3.1.tgz  |
-| Github                   | https://github.com/rodrigosantosbr/lv_learning_vectors |
-| Blog                     | https://professordenyssales.blogspot.com/              |
-| Blog                     | https://rodrigosilva.work/                             |
-
-
 # Dados do ambiente do servidor
 
 
