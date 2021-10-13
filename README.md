@@ -26,5 +26,5 @@ Acesse o diretório **apresentacoes** do Github ou pela URL: https://github.com/
 
 ### Vídeos
 
-Acesse o diretório **videos** do Github ou pela URL: 
+Acesse o diretório **videos** do Github ou pela URL: https://github.com/rodrigosantosbr/lv_learning_vectors/tree/main/videos
 
