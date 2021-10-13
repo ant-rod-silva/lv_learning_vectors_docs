@@ -16,15 +16,6 @@ Help Class Online
 | Blog                     | https://rodrigosilva.work/                             |
 
 
-# Dados do provedor de hospedagem web
-
-
-| PARÄMETRO                | VALOR                                                  |
-| ------------------------ |:------------------------------------------------------:|
-| Servidor de hospedagem   | Hostinger                                              |
-| URL                      | https://www.helpclassonline.com.br/                    |
-
-
 # Dados do ambiente do servidor
 
 
