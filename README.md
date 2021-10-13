@@ -12,7 +12,7 @@ Acesse o diretório **scripts** do Github ou pela URL https://github.com/rodrigo
 
 ## Artigos
 
-Acesse o diretório **artigos** do Github
+Acesse o diretório **artigos** do Github ou pela URL: https://github.com/rodrigosantosbr/lv_learning_vectors/tree/main/artigos
 
 ## Teses
 
