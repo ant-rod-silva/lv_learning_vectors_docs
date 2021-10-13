@@ -6,6 +6,8 @@ Implementado como uma extensão das ferramentas síncronas e assíncronas do AVA
 
 Aqui encontram-se disponibilizados os recursos necessários para se instalar e configurar LVs em um AVA Moodle.
 
+-------------------------------
+
 ## Desenvolvimento
 
 ### Como montar um ambiente de homologação
@@ -15,6 +17,8 @@ Acesse o diretório **scripts** do Github ou pela URL https://github.com/rodrigo
 ### Recursos
 
 Acesse o diretório **imagens** do GitHub ou pela URL: https://github.com/rodrigosantosbr/lv_learning_vectors/tree/main/imagens
+
+-------------------------------
 
 ## Recursos complementares
 
