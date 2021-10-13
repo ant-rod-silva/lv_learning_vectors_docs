@@ -7,7 +7,7 @@ Help Class Online
 | APP      | VERSÃO                                  | COMANDO                                            | RELEASE DATE |
 | -------- |:---------------------------------------:| :--------------------------------------------------|:-------------|
 | Sistema  | Debian 9.13 Stretch ou Ubuntu 16.04 LTS | lsb_release -a                                     | 18 Jul 2020  |
-| PHP      | 7.0                                     | php --version                                      | 23 Set 2021  |
+| PHP      | 7.0                                     | php --version                                      | 03 Dez 2015  |
 | MariaDB  | 10.1.48                                 | mysql -V                                           | 31 Jan 2017  |
 | Moodle   | 3.3.1                                   | cat /var/www/moodle/version.php \| grep '$release' | 04 Nov 2020  |
 | Nginx    | 1.10.3                                  | sudo nginx -v                                      | 21 abr 2020  |
