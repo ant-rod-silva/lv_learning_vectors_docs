@@ -8,4 +8,12 @@ Aqui encontram-se disponibilizados os recursos necessários para se instalar e c
 
 ## Como montar um ambiente de homologação
 
-Acesse o diretório scripts do **Github** ou pela URL https://github.com/rodrigosantosbr/lv_learning_vectors/tree/main/scripts
+Acesse o diretório **scripts** do Github ou pela URL https://github.com/rodrigosantosbr/lv_learning_vectors/tree/main/scripts
+
+## Artigos
+
+Acesse o diretório **artigos** do Github
+
+## Teses
+
+Acesse o diretório **teses** do Github
