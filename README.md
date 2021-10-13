@@ -16,4 +16,4 @@ Acesse o diretório **artigos** do Github ou pela URL: https://github.com/rodrig
 
 ## Teses
 
-Acesse o diretório **teses** do Github
+Acesse o diretório **teses** do Github ou pela URL: https://github.com/rodrigosantosbr/lv_learning_vectors/tree/main/teses
