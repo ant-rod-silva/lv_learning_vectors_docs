@@ -10,10 +10,21 @@ Aqui encontram-se disponibilizados os recursos necessários para se instalar e c
 
 Acesse o diretório **scripts** do Github ou pela URL https://github.com/rodrigosantosbr/lv_learning_vectors/tree/main/scripts
 
-## Artigos
+## Recursos complementares
+
+### Teses
+
+Acesse o diretório **teses** do Github ou pela URL: https://github.com/rodrigosantosbr/lv_learning_vectors/tree/main/teses
+
+### Artigos
 
 Acesse o diretório **artigos** do Github ou pela URL: https://github.com/rodrigosantosbr/lv_learning_vectors/tree/main/artigos
 
-## Teses
+### Apresentações
 
-Acesse o diretório **teses** do Github ou pela URL: https://github.com/rodrigosantosbr/lv_learning_vectors/tree/main/teses
+Acesse o diretório **apresentacoes** do Github ou pela URL: https://github.com/rodrigosantosbr/lv_learning_vectors/tree/main/apresentacoes
+
+### Vídeos
+
+Acesse o diretório **videos** do Github ou pela URL: 
+
