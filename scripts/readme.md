@@ -4,13 +4,13 @@ Help Class Online
 # Dados do ambiente do servidor
 
 
-| APP      | VERSÃO              | COMANDO                                            | RELEASE DATE |
-| -------- |:-------------------:| :--------------------------------------------------|:-------------|
-| Sistema  | Debian 9.13 Stretch | lsb_release -a                                     | 18 Jul 2020  |
-| PHP      | 7.3.31              | php --version                                      | 23 Set 2021  |
-| MariaDB  | 10.1.48             | mysql -V                                           | 31 Jan 2017  |
-| Moodle   | 3.3.1               | cat /var/www/moodle/version.php \| grep '$release' | 04 Nov 2020  |
-| Nginx    | 1.10.3              | sudo nginx -v                                      | 21 abr 2020  |
+| APP      | VERSÃO                                  | COMANDO                                            | RELEASE DATE |
+| -------- |:---------------------------------------:| :--------------------------------------------------|:-------------|
+| Sistema  | Debian 9.13 Stretch ou Ubuntu 16.04 LTS | lsb_release -a                                     | 18 Jul 2020  |
+| PHP      | 7.0                                     | php --version                                      | 23 Set 2021  |
+| MariaDB  | 10.1.48                                 | mysql -V                                           | 31 Jan 2017  |
+| Moodle   | 3.3.1                                   | cat /var/www/moodle/version.php \| grep '$release' | 04 Nov 2020  |
+| Nginx    | 1.10.3                                  | sudo nginx -v                                      | 21 abr 2020  |
 
 
 # Versões do PHP compatíveis com o Help Class Online
