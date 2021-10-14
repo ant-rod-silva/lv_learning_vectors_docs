@@ -7,8 +7,8 @@
 #
 # License: GNU GPL 3.0 or later.
 
-DB='c2moodle'
-DBUSER='c2helpclass'
+DB='moodle'
+DBUSER='helpclass'
 DBPASS='abcd1234'
 
 TERMINALUSER='operador'
