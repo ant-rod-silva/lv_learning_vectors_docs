@@ -1,3 +1,16 @@
+## COMPONENTES
+
+```
+
+    .------A------>
+    |
+    |
+LVy |
+    V
+    |
+
+```
+
 ## VARIÁVEL I = 
 
 VARIAÇÃO ANGULAR TOTAL DO VETOR
