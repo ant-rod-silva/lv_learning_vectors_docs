@@ -8,6 +8,7 @@ A DETERMINACAO DOS 25 POSSIVEIS VALORES SE DA POR:
 ```
 i = (n/2) * a
 ```
+
 sendo que
 
 ```
@@ -30,3 +31,56 @@ i = (n/2) * a
 |  3      |  i = 3/2 * 7.5  |  11.25        |  I = 1,5a            |
 |  4      |  i = 4/2 * 7.5  |  15           |  I = 2a              |
 |  24     |  i = 24/2 * 7.5 |  90           |  I = 12a             |
+
+## Positividade
+
+Leva em consideração a variável **I**
+Representado por Lvx
+Representa uma nota
+
+Equação:
+
+```
+LVx = 10 * cos[(-12a * I)]
+```
+
+sendo que
+
+```
+I = Variação Angular Total do vetor
+a = 7.5
+```
+
+Exemplo 1:
+
+```
+I = 0a
+```
+Reprodução
+
+```
+LVx = 10 * cos[(-12a * 0a)]
+LVx = 10 * cos[(-12a * 0)]
+LVx = 10 * cos[0]
+LVx = 10 * 1
+LVx = 10
+```
+Exemplo 1:
+
+```
+I = 0,5a
+```
+Reprodução
+
+```
+LVx = 10 * cos[(-12a * 0,5a)]
+LVx = 10 * cos[(-12*7,5 * 0,5*7,5)]
+LVx = 10 * cos[-90 * 3.75]
+LVx = 10 * cos[-337.5]
+LVx = 10 * 0.92387953
+LVx = 9,23
+```
+
+
+
+
