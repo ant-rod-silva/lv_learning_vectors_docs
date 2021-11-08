@@ -163,5 +163,5 @@ Constituída por seis itens:
 
 ### Variável m
 
-Responsável por definir a quantidade mínima de interações no fórum.
+Responsável por definir a quantidade mínima de interações no fórum (Configurável dentro das configurações do módulo Fórum)
 Tem relação com os LVGifs/Coeficiente de Passo
