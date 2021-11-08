@@ -41,7 +41,7 @@ Representa uma nota
 Equação:
 
 ```
-LVx = 10 * cos[(-12a * I)]
+LVx = 10 * cos[(-12a + I)]
 ```
 
 sendo que
@@ -59,13 +59,14 @@ I = 0a
 Reprodução
 
 ```
-LVx = 10 * cos[(-12a * 0a)]
-LVx = 10 * cos[(-12a * 0)]
-LVx = 10 * cos[0]
-LVx = 10 * 1
-LVx = 10
+LVx = 10 * cos[(-12a + 0a)]
+LVx = 10 * cos[(-12*7.5) + (0*7.5)]
+LVx = 10 * cos[-90]
+LVx = 10 * 0
+LVx = 0
 ```
-Exemplo 1:
+
+Exemplo 2:
 
 ```
 I = 0,5a
@@ -73,14 +74,45 @@ I = 0,5a
 Reprodução
 
 ```
-LVx = 10 * cos[(-12a * 0,5a)]
-LVx = 10 * cos[(-12*7,5 * 0,5*7,5)]
-LVx = 10 * cos[-90 * 3.75]
-LVx = 10 * cos[-337.5]
-LVx = 10 * 0.92387953
-LVx = 9,23
+LVx = 10 * cos[(-12a) + (0.5a)]
+LVx = 10 * cos[(-12*7.5) + (0.5*7.5)]
+LVx = 10 * cos[-90 + 3.75]
+LVx = 10 * cos[-86.25]
+LVx = 10 * 0.06540313
+LVx = 0,6540313
 ```
 
+Exemplo 3:
+
+```
+I = 11,5a
+```
+Reprodução
+
+```
+LVx = 10 * cos[(-12a) + (11,5a)]
+LVx = 10 * cos[(-12*7,5) + (11,5*7,5)]
+LVx = 10 * cos[-90 + 86,25]
+LVx = 10 * cos[-3.75]
+LVx = 10 * 0.99785892
+LVx = 9,97
+```
+
+Exemplo 4:
+
+```
+I = 12a
+```
+Reprodução
+
+```
+LVx = 10 * cos[(-12a) + (12a)]
+LVx = 10 * cos[(-12*7,5) + (12*7,5)]
+LVx = 10 * cos[-90 + 90]
+LVx = 10 * cos[0]
+LVx = 10 * 1
+LVx = 10
+```
 
 
 
