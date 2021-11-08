@@ -143,3 +143,8 @@ I = Variação Angular Total do vetor
 a = 7.5
 ```
 
+## Fórum LV
+
+### Variável m
+
+Responsável por definir a quantidade mínima de interações no fórum.
