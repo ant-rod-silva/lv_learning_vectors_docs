@@ -32,8 +32,10 @@ i = (n/2) * a
 |  4      |  i = 4/2 * 7.5  |  15           |  I = 2a              |
 |  24     |  i = 24/2 * 7.5 |  90           |  I = 12a             |
 
-## Positividade
 
+## Positividade de desempenho
+
+Componente horizontal do vetor LV
 Leva em consideração a variável **I**
 Representado por Lvx
 Representa uma nota
@@ -115,4 +117,23 @@ LVx = 10
 ```
 
 
+## Negatividade de desempenho
+
+Componente vertical do vetor LV
+Leva em consideração a variável **I**
+Representado por Lvx
+Representa uma nota
+
+Equação:
+
+```
+LVy = 10 * sen[(-12a + I)]
+```
+
+sendo que
+
+```
+I = Variação Angular Total do vetor
+a = 7.5
+```
 
