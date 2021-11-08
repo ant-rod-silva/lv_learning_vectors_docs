@@ -20,8 +20,12 @@
        |"
 ```
 
-- LVx Relaciona-se à positividade de desempenho do aluno. Expressa a nota naquela atividade.
-- LVy Relaciona-se à negatividade do seu desempenho.
+|  Termo   | Definição                                                                               |
+|----------|-----------------------------------------------------------------------------------------|
+| LVx      | Relaciona-se à positividade de desempenho do aluno. Expressa a nota naquela atividade.  |
+| LVy      | Relaciona-se à negatividade do seu desempenho.                                          |
+| Fator β  | LVx / LVy                                                                               |
+
 
 ## VARIÁVEL I = 
 
