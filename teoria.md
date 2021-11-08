@@ -148,8 +148,11 @@ a = 7.5
 ### Coeficiente de Passo
 
 menção qualitativa
+
 Valor atribuído pelo professor a uma mensagem no Fórum.
+
 Representada graficamente pelos LVGifs
+
 Constituída por seis itens:
 - Muito bom (CP = 4)
 - Bom (CP = 3)
@@ -157,6 +160,7 @@ Constituída por seis itens:
 - Fraco (CP = 1)
 - Não satisfatório  (CP = 0)
 - Neutro ( - )
+
 ### Variável m
 
 Responsável por definir a quantidade mínima de interações no fórum.
