@@ -2,7 +2,7 @@
 
 ```
               LVx
-       ▪𒀸𒀸𒀸𒀸𒀸𒀸𒀸𒀸▶,,,,,,,,,,,,        
+       ▪𒀸𒀸𒀸𒀸𒀸𒀸𒀸𒀸▶-----------
        𒁹𒑳  𒁹 Θ         :         "
        𒁹__𒑳𒁹           :        "
        𒁹 I  𒑳          :       "
@@ -20,11 +20,11 @@
        |"
 ```
 
-|  Termo   | Definição                                                                               |
-|----------|-----------------------------------------------------------------------------------------|
-| LVx      | Relaciona-se à positividade de desempenho do aluno. Expressa a nota naquela atividade.  |
-| LVy      | Relaciona-se à negatividade do seu desempenho.                                          |
-| Fator β  | LVx / LVy                                                                               |
+|  Termo   | Definição                                                                               | Equação                    |
+|----------|-----------------------------------------------------------------------------------------|----------------------------|
+| LVx      | Relaciona-se à positividade de desempenho do aluno. Expressa a nota em cada atividade.  | LVx = 10 * cos[(-12a + I)] |
+| LVy      | Relaciona-se à negatividade do seu desempenho.                                          | LVy = 10 * sen[(-12a + I)] |
+| Fator β  | Pode indicar o nível de desempenho do aluno no curso online.                            | LVx / LVy                  | 
 
 
 ## VARIÁVEL I = 
