@@ -20,8 +20,8 @@
        |"
 ```
 
-LVx Relaciona-se à positividade de desempenho do aluno. Expressa a nota naquela atividade. 
-LVy Relaciona-se à negatividade do seu desempenho.
+- LVx Relaciona-se à positividade de desempenho do aluno. Expressa a nota naquela atividade.
+- LVy Relaciona-se à negatividade do seu desempenho.
 
 ## VARIÁVEL I = 
 
