@@ -23,7 +23,9 @@
 |  Termo   | Definição                                                                               | Equação                    |
 |----------|-----------------------------------------------------------------------------------------|----------------------------|
 | α        | Ângulo que representa o passo padrão de aprendizagem.                                   | 7.5°                       | 
-| I        | Variação Angular Total do vetor. Varia conforme as avaliações do Professor/Tutor.       | I = (n/2) * α              | 
+| I        | Variação Angular Total do vetor. Varia conforme as avaliações do Professor/Tutor.       | I = (n/2) * α              |
+| θ        | nota mínima                                                                             | θ = -90                    |
+| θ        | nota máxima                                                                             | θ = 0                      |
 | LVx      | Relaciona-se à positividade de desempenho do aluno. Expressa a nota em cada atividade.  | LVx = 10 * cos[(-12a + I)] |
 | LVy      | Relaciona-se à negatividade do seu desempenho.                                          | LVy = 10 * sen[(-12a + I)] |
 | Fator β  | Pode indicar o nível de desempenho do aluno no curso online.                            | β = LVx / LVy              | 
