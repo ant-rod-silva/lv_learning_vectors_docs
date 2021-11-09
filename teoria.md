@@ -264,7 +264,7 @@ As mensagens avaliadas pelo professor-tutor podem ser classificadas em interaç�
 Denomina-se P0 à primeira Interação Principal (IP) postada no Fórum, ou seja, a mensagem que revela a compreensão do aluno/interagente acerca do tema em discussão.
 Sua categorização associada à escala Likert – Icônica é:
 
-|  Item            | Angulo   | Angulo   |
+|  Item            | P0       | Angulo   |
 |------------------|----------|----------|
 | Muito bom        | 8α       | 8-60     | 
 | bom              | 6α       | 6-45     | 
@@ -274,6 +274,16 @@ Sua categorização associada à escala Likert – Icônica é:
 | Neutro           | -        | -        |
 
 Denomina-se N0 à primeira Interação Secundária (IS) postada no Fórum, ou seja, aquela que vem como resposta, comentário, sugestão, crítica, concordância, etc. a alguma interação principal já depositada no Fórum, com fins de provocar dinamismo nas discussões e gerar mais interações acerca do tema em estudo. Sua categorização associada à escala Likert – Icônica é: 
+
+|  Item            | P0       | Angulo   |
+|------------------|----------|----------|
+| Muito bom        | 4α       | 4-30     | 
+| bom              | 3α       | 3-22.5   | 
+| Regular          | 2α       | 2-15     |
+| Fraco            | α        | 1-7.5    | 
+| Não satisfatório | 0α       | 0-0      |
+| Neutro           | -        | -        |
+
 
 ### Coeficiente de Passo
 
