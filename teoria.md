@@ -254,7 +254,28 @@ Constituída por seis itens:
 | Não satisfatório | 0        | 
 | Neutro           | -        | 
 
+A escolha do LV Ícone influencia no deslocamento do vetor
+
+In = somatório das n interações no fórum
+
+De forma a conferir diferentes pesos a diferentes mensagens cronologicamente inseridas, o LV Forum conta com:
+ * o coeficiente do passo (CP), variando de 0 a 4 (LVGifs)
+ * a variação angular ( )
+ * o fator multiplicador (m)
+
+
 ### Variável m
 
 Responsável por definir a quantidade mínima de interações no fórum (Configurável dentro das configurações do módulo Fórum)
 Tem relação com os LVGifs/Coeficiente de Passo
+
+
+
+Mensagem Principal: compreensão acerca do tema proposto; 
+(I2): 1ª Mensagem de Interação: resposta, comentário, sugestão, crítica ou concordância, seguida de justificativa, a uma mensagem já realizada;
+(I3 e I4): demais mensagens de interação.
+
+A partir da quinta mensagem, (In ≥ 5), temos tanto um fator motivador, associando-se uma variação angular Δ = +1φ, 
+caso a interação seja classificada com os LV Ícones Amarelo, Verde ou Azul, respectivamente: CP=2, CP=3 ou CP=4, 
+quanto um fator penalizador, com variação angular Δ = -1φ, caso sejam o Vermelho ou Laranja, ou, CP=0 e CP=1.
+
