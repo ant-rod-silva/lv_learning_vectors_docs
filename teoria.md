@@ -240,12 +240,15 @@ Valor atribuído pelo professor a uma mensagem no Fórum.
 Representada graficamente pelos LVGifs
 
 Constituída por seis itens:
-- Muito bom (CP = 4)
-- Bom (CP = 3)
-- Regular (CP = 2)
-- Fraco (CP = 1)
-- Não satisfatório  (CP = 0)
-- Neutro ( - )
+
+|  Item            | Valor CP |
+|------------------|----------|
+| Muito bom        | 4        | 
+| bom              | 3        | 
+| Regular          | 2        | 
+| Fraco            | 1        | 
+| Não satisfatório | 0        | 
+| Neutro           | -        | 
 
 ### Variável m
 
