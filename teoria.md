@@ -1,3 +1,8 @@
+## DEFINIÇÃO
+
+LVs são representações geométricas vetoriais concebidos para auxiliar o processo de avaliação em Ambientes Virtuais de Aprendizagem (AVA).
+Os LVs reúnem aspectos qualitativos e quantitativos no acompanhamento de desempenho do aluno/usuário.
+
 ## COMPONENTES
 
 ```
@@ -235,15 +240,7 @@ a = 7.5
 
 ## Fórum LV
 
-### Coeficiente de Passo
-
-menção qualitativa
-
-Valor atribuído pelo professor a uma mensagem no Fórum.
-
-Representada graficamente pelos LVGifs
-
-Constituída por seis itens:
+Cada participação do aluno no fórum, por meio de inserção de mensagens, serão avaliadas pelo professor-tutor, segundo uma escala Likert de 6 pontos baseada em critérios de apreciação e associada a uma escala icônica (LV ícones ou LV Gifs).
 
 |  Item            | Valor CP |
 |------------------|----------|
@@ -254,7 +251,33 @@ Constituída por seis itens:
 | Não satisfatório | 0        | 
 | Neutro           | -        | 
 
-A escolha do LV Ícone influencia no deslocamento do vetor
+A escolha do LV Ícone influencia no deslocamento do vetor.
+
+Sempre que o aluno/cursista fizer alguma inserção no fórum, aparece a escala para ser preenchida.
+
+Ao clicar em um destes LV Ícones o professor-tutor envia seu parecer sobre a mensagem do aluno, que será endereçada somente para o emissor da mensagem que será o único aluno a visualizar a ação do tutor.
+
+Devidamente normalizado numa escala de 0 a 10, a nota do Fórum será representada pelo módulo do componente horizontal do LV Fórum. 
+
+As mensagens avaliadas pelo professor-tutor podem ser classificadas em interação principal (IP), interação secundária (IS) e interações além de IP e IS.
+
+Denomina-se P0 à primeira Interação Principal (IP) postada no Fórum, ou seja, a mensagem que revela a compreensão do aluno/interagente acerca do tema em discussão.
+Sua categorização associada à escala Likert – Icônica é:
+
+|  Item            | Angulo   | Angulo   |
+|------------------|----------|----------|
+| Muito bom        | 8α       | 8-60     | 
+| bom              | 6α       | 6-45     | 
+| Regular          | 4α       | 4-30     |
+| Fraco            | 2α       | 2-15     | 
+| Não satisfatório | 0α       | 0-0      |
+| Neutro           | -        | -        |
+
+Denomina-se N0 à primeira Interação Secundária (IS) postada no Fórum, ou seja, aquela que vem como resposta, comentário, sugestão, crítica, concordância, etc. a alguma interação principal já depositada no Fórum, com fins de provocar dinamismo nas discussões e gerar mais interações acerca do tema em estudo. Sua categorização associada à escala Likert – Icônica é: 
+
+### Coeficiente de Passo
+
+
 
 In = somatório das n interações no fórum
 
