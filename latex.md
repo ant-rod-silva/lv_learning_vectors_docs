@@ -18,7 +18,7 @@ I = \frac{n}{2} * \alpha
 ```
 
 <img src=
-"https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0ALV_%7Bx%7D+%3D+10+%2A+cos%5B%28-12%5Calpha+%2B+I%29%5D%0A%5Cend%7Balign%2A%7D%0A" 
+"https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0ALV_%7Bx%7D+%3D+10+%2A+cos%5B%28-12%5Calpha+%2B+I%29%5D%0A%5Cend%7Balign%2A%7D%0A" 
 alt="\begin{align*}
 LV_{x} = 10 * cos[(-12\alpha + I)]
 \end{align*}
