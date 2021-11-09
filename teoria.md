@@ -197,14 +197,16 @@ LVx = 10
 
 
 ```python
-print("Cálculo de LVx")
+print("Cálculo de LVx e nota")
 n = 8
 a = 7.5
 i = (n/2) * 7.5
-print (i)
+print(i)
 cosseno = math.cos(  math.radians(-12 * a + i)  )
 LVx = 10 * cosseno
-print (LVx)
+print(LVx)
+nota = round(LVx, 2)
+print(nota)
 ```
 
 ## Negatividade de desempenho
