@@ -37,6 +37,8 @@ Os LVs reúnem aspectos qualitativos e quantitativos no acompanhamento de desemp
 | LVy      | Relaciona-se à negatividade do seu desempenho.                                          | LVy = 10 * sen[(-12a + I)] |
 | Fator β  | Pode indicar o nível de desempenho do aluno no curso online.                            | β = LVx / LVy              | 
 
+<img src="https://render.githubusercontent.com/render/math?math=e^{i %2B\pi} =x%2B1">
+
 
 ## VARIÁVEL I
 
@@ -294,7 +296,8 @@ Note que esta medida incita a interatividade, uma vez que, não se atingindo o l
 
 Os números P0 e N0, respectivamente relacionados à interação primária (IP) e interação secundária (IS), que precedem os ângulos nas Figuras 4 e 5, juntamente com os acréscimos unitários de 1α, compõem o módulo do vetor LV Fórum. 
 
-Numa escala de 0 a 10, a nota de cada Fórum, representada pelo módulo do componente horizontal do LV Fórum (Q ou NFi), pode ser expressa pela equação (1): 
+Numa escala de 0 a 10, a nota de cada Fórum, representada pelo módulo do componente horizontal do LV Fórum (NFi), pode ser expressa pela equação (1): 
+
 
 
 ### Coeficiente de Passo
