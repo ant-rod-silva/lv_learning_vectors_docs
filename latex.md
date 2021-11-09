@@ -5,15 +5,15 @@ https://tex-image-link-generator.herokuapp.com/
 ## LATEX
 
 <img src=
-"https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0AI+%3D+%28n%2F2%29+%2A+%5Calpha%0A%5Cend%7Balign%2A%7D%0A" 
+"https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0AI+%3D+%5Cfrac%7Bn%7D%7B2%7D+%2A+%5Calpha%0A%5Cend%7Balign%2A%7D%0A" 
 alt="\begin{align*}
-I = (n/2) * \alpha
+I = \frac{n}{2} * \alpha
 \end{align*}
 ">
 
 ```
 \begin{align*}
-I = (n/2) * \alpha
+I = \frac{n}{2} * \alpha
 \end{align*}
 ```
 
