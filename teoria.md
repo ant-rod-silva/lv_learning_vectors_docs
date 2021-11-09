@@ -284,6 +284,18 @@ Denomina-se N0 à primeira Interação Secundária (IS) postada no Fórum, ou se
 | Não satisfatório | 0α       | 0-0      |
 | Neutro           | -        | -        |
 
+A primeira interação principal (P0) tem, correspondentemente a cada categoria, peso maior comparado à interação secundária (N0).
+Esta medida é para que o aluno se posicione em relação ao tema central do fórum e não fique apenas comentando as mensagens já depositadas. 
+Se, após o aluno postar suas primeiras interações primária (P0) e secundária (N0), o mesmo atingir o limite de 12α ou 90°, o LV Fórum registra o valor máximo para aquela atividade e cessa seu incremento, visto que a direção do mesmo será a horizontal e seu módulo terá valor máximo. 
+
+Para interações além de IP e IS caso o aluno não tenha atingido o limite de 12α, para cada nova interação qualificada com categoria (3), (4) ou (5), o vetor é incrementado de 1α (o vetor LV Fórum gira de α e seu módulo cresce de uma unidade) até que se complete o limite supracitado. Mas para cada interação categorizada com categoria (1) ou (2), o vetor LV Fórum gira no sentido anti-horário de um ângulo α/2 sem modificar seu módulo, até o limite de 90°. 
+
+Note que esta medida incita a interatividade, uma vez que, não se atingindo o limite de 12α, o aluno procurará fazer inserções com mais qualidade nos fóruns no intuito de atingir uma maior pontuação. 
+
+Os números P0 e N0, respectivamente relacionados à interação primária (IP) e interação secundária (IS), que precedem os ângulos nas Figuras 4 e 5, juntamente com os acréscimos unitários de 1α, compõem o módulo do vetor LV Fórum. 
+
+Numa escala de 0 a 10, a nota de cada Fórum, representada pelo módulo do componente horizontal do LV Fórum (Q ou NFi), pode ser expressa pela equação (1): 
+
 
 ### Coeficiente de Passo
 
