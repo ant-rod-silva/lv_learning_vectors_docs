@@ -19,6 +19,8 @@ I = \frac{n}{2} * \alpha
 \end{align*}
 ```
 
+-------------------------
+
 ### LVX
 
 <img src=
@@ -33,6 +35,8 @@ LV_{x} = 10 * cos[(-12\alpha + I)]
 LV_{x} = 10 * cos[(-12\alpha + I)]
 \end{align*}
 ```
+
+-------------------------
 
 ### LVY
 
