@@ -11,7 +11,7 @@ Todo módulo do Moodle possui um esqueleto padrão, que são os arquivos necess�
     <td>db/access.php</td>
     <td>
       Este arquivo deve conter as permissões para utilizar as funcionalidades do módulo. 
-      Por exemplo, alguém com perfil de editor ou professor, pode fazer edição do conteúdo, já alguém com perfil de aluno não tem essa permissão
+      Por exemplo, alguém com perfil professor pode fazer uma edição de um determinado conteúdo, diferentemente de alguém com perfil de aluno.
     </td>
   </tr>
   <tr>
