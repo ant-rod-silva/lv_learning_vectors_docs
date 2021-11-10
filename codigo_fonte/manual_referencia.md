@@ -63,6 +63,13 @@ Todo módulo do Moodle possui um esqueleto padrão, que são os arquivos necess�
       Se durante o desenvolvimento do módulo (que já foi instalado) forem necessárias mudanças na sua estrutura (tabelas ou permissões de acesso), o Moodle deve ser forçado a recarregar essa estrutura. Para que isso ocorra, o número da versão deve ser incrementado. 
     </td>
   </tr>
+  <tr>
+    <td>view.php</td>
+    <td>
+      Página que permite ver uma instância em particular.<br/>
+      Quando o link de uma instância do módulo é selecionado, esta classe é executada.
+    </td>
+  </tr>
 </table>
 
 ## DIRETÓRIOS
