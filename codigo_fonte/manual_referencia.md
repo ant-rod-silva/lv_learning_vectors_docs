@@ -97,7 +97,28 @@ Wrapper de Itens avaliados
 </table>
 
 #### Usado por
-  - oononono
+  - blocks\lvs\biblioteca\avaliacao\AvaliacaoLv.php
+  - blocks\lvs\biblioteca\avaliacao\NotasLv.php
+  - blocks\lvs\biblioteca\moodle2\avaliacao\Moodle2NotasLv.php
+  - blocks\lvs\biblioteca\moodle2\business\Chatlv.php
+  - blocks\lvs\biblioteca\moodle2\business\Forumlv.php
+  - blocks\lvs\biblioteca\moodle2\business\Tarefalv3.php
+  - blocks\lvs\biblioteca\moodle2\business\Wikilv.php
+  - blocks\lvs\biblioteca\util\Cache.php
+  - blocks\lvs\pages\rate.php
+  - blocks\lvs\pages\rateajax.php
+  - blocks\lvs\tests\ajusta_forumlv_simples.php
+  - blocks\lvs\tests\ajustes_faltas.php
+  - blocks\lvs\tests\ajustes_nota_forumlvs.php
+  - blocks\lvs\tests\test.php
+  - mod\chatlv\lib.php
+  - mod\chatlv\renderer.php
+  - mod\chatlv\report.php
+  - mod\forumlv\lib.php
+  - mod\wikilv\diff.php
+  - mod\wikilv\pagelib.php
+  - mod\wikilv\renderer.php
+  - mod\wikilv\view.php
 
 -----------------------------------------------------------
 
