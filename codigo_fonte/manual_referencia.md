@@ -33,7 +33,7 @@ Todo módulo do Moodle possui um esqueleto padrão, que são os arquivos necess�
     </td>
   </tr>
   <tr>
-    <td>lang/en/nomedomodulo.php e lang/pt_br/nomedomodulo.php</td>
+    <td>lang/en/nomedomodulo.php <br/> lang/pt_br/nomedomodulo.php</td>
     <td>
       Este arquivo, com o mesmo nome do módulo, contém todas as strings utilizadas no módulo, conforme o idioma selecionado.
     </td>
