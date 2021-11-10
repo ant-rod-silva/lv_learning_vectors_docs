@@ -9,6 +9,10 @@ Wrapper de Itens avaliados
 #### Atributos:
 
 <table>
+  <th>
+    <td>Atributo</td>
+    <td>Descrição</td>
+  </th>
   <tr>
     <td>$_atividade</td>
     <td>Nome da atividade lv a qual o item pertence</td>
@@ -30,6 +34,11 @@ Wrapper de Itens avaliados
 #### Métodos
 
 <table>
+  <th>
+    <td>Método</td>
+    <td>Descrição</td>
+    <td>-</td>
+  </th>
   <tr>
     <td>__construct( $atividade,  $tipo,  $item )</td>
     <td>Instancia Item</td>
@@ -55,8 +64,14 @@ Interface para classes que implementarão um sistema de avaliação de uma ativi
 #### Atributos:
 
 <table>
+  <th>
+    <td>Variável/Constante</td>
+    <td>Descrição</td>
+    <td>Valor</td>
+  </th>
   <tr>
     <td>const ALFA</td>
+    <td>-</td>
     <td>7.5</td>
   </tr>
 </table>
@@ -64,6 +79,10 @@ Interface para classes que implementarão um sistema de avaliação de uma ativi
 #### Métodos abstratos:
 
 <table>
+  <th>
+    <td>Método</td>
+    <td>Descrição</td>
+  </th>
   <tr>
     <td>bool contribuicao( Item $item )</td>
     <td>Determina se o item corresponde ao documento final gerado pela atividade ou se é parte do mesmo</td>
@@ -97,6 +116,11 @@ Interface para classes que implementarão um sistema de avaliação de uma ativi
 #### Métodos
 
 <table>
+  <th>
+    <td>Método</td>
+    <td>Descrição</td>
+    <td>Parâmetros</td>
+  </th>
   <tr>
     <td>float calcularBeta($LVx, $carinhas)</td>
     <td>Calcula o fator ß dado o módulo do vetor e a quantidade de carinhas recebidas na atividade</td>
