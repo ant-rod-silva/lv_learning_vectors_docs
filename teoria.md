@@ -339,3 +339,23 @@ A partir da quinta mensagem, (In ≥ 5), temos tanto um fator motivador, associa
 caso a interação seja classificada com os LV Ícones Amarelo, Verde ou Azul, respectivamente: CP=2, CP=3 ou CP=4, 
 quanto um fator penalizador, com variação angular Δ = -1φ, caso sejam o Vermelho ou Laranja, ou, CP=0 e CP=1.
 
+
+------------------------------------------------------------------------------
+
+## ARQUIVOS
+
+- Arquivo: **/blocks/lvs/biblioteca/business/AtividadeLv.php**
+- Descrição: **Interface para classes que implementarão um sistema de avaliação de uma atividade a distância.**
+- Métodos:
+  - float calcularBeta($LVx, $carinhas)
+    - Calcula o fator ß dado o módulo do vetor e a quantidade de carinhas recebidas na atividade
+      - $LVx: módulo do vetor
+      - $carinhas: array com o número de carinhas por cor [azul: int, verde: int, amarela: int, laranja: int, vermelha: int, preta: int]
+  - float calcularModuloVetor($I)
+    - Calcula o módulo do vetor LVx dada a variação angular
+      - $I variação angular
+  - float limitarAoQuadrante($I)
+    - Delimita os valores possíveis da variação angular ao primeiro quadrante
+      - $I variação angular
+
+
