@@ -4,6 +4,10 @@ Todo módulo do Moodle possui um esqueleto padrão, que são os arquivos necess�
 
 <table>
   <tr>
+    <th>Arquivo</th>
+    <th>Descrição</th>
+  </tr>
+  <tr>
     <td>db/access.php</td>
     <td>
       Este arquivo deve conter as permissões para utilizar as funcionalidades do módulo. 
