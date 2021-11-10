@@ -344,8 +344,55 @@ quanto um fator penalizador, com variação angular Δ = -1φ, caso sejam o Verm
 
 ## ARQUIVOS
 
+- Arquivo: **blocks/lvs/biblioteca/business/Item.php**
+- Descrição: **Wrapper de Itens avaliados**
+
+- Atributos:
+
+<table>
+  <tr>
+    <td>$_atividade</td>
+    <td>Nome da atividade lv a qual o item pertence</td>
+  </tr>
+  <tr>
+    <td>$_componente</td>
+    <td>Nome do componente avaliado</td>
+  </tr>
+  <tr>
+    <td>$_item</td>
+    <td>Item avaliado</td>
+  </tr>
+  <tr>
+    <td>$_avaliacao</td>
+    <td>Avaliação do item</td>
+  </tr>
+</table>
+
+- Métodos:
+
+<table>
+  <tr>
+    <td>__construct( $atividade,  $tipo,  $item )</td>
+    <td>Instancia Item</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>getAtividade( )</td>
+    <td>Retorna o nome da atividade a qual o item pertence</td>
+    <td>-</td>
+  </tr>
+</table>
+
+- Usado por:
+  - oononono
+
+
+
+
+
 - Arquivo: **/blocks/lvs/biblioteca/business/AtividadeLv.php**
 - Descrição: **Interface para classes que implementarão um sistema de avaliação de uma atividade a distância.**
+
 - Atributos:
 
 <table>
