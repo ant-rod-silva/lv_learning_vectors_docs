@@ -348,6 +348,21 @@ quanto um fator penalizador, com variação angular Δ = -1φ, caso sejam o Verm
 - Descrição: **Interface para classes que implementarão um sistema de avaliação de uma atividade a distância.**
 - Atributos:
   - const ALFA = 7.5;
+- Métodos abstratos:
+  - bool contribuicao( Item $item )
+    - Determina se o item corresponde ao documento final gerado pela atividade ou se é parte do mesmo
+  - AvaliacaoLv getAvaliacao( Item $item )
+    - Retorna a avaliação de um item 
+  - float getNota( $estudante )
+    - Retorna a nota do estudante
+  - bool podeAvaliar( Item $item )
+    - Determina se o usuário logado tem permissão para avaliar um item
+  - bool podeVerNota( Item $item )
+    - Determina se o usuário logado tem permissão para ver a avaliação um item
+  - AvaliacaoLv removerAvaliacao( AvaliacaoLv $avaliacao );
+    - Remove uma avaliação e reavalia o desempenho do estudante na atividade
+  - AvaliacaoLv salvarAvaliacao( AvaliacaoLv $avaliacao );
+    - Salva uma avaliação e reavalia o desempenho do estudante na atividade
 - Métodos:
   - float calcularBeta($LVx, $carinhas)
     - Calcula o fator ß dado o módulo do vetor e a quantidade de carinhas recebidas na atividade
@@ -365,3 +380,4 @@ quanto um fator penalizador, com variação angular Δ = -1φ, caso sejam o Verm
   - blocks\lvs\biblioteca\moodle2\business\Forumlv.php
   - blocks\lvs\biblioteca\moodle2\business\Chatlv.php
   - blocks\lvs\biblioteca\moodle2\avaliacao\Moodle2NotasLv.php
+- 
