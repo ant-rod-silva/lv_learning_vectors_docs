@@ -1,9 +1,12 @@
 ## ARQUIVOS
 
-- Arquivo: **blocks/lvs/biblioteca/business/Item.php**
-- Descrição: **Wrapper de Itens avaliados**
+### Arquivo: 
+blocks/lvs/biblioteca/business/Item.php
 
-- Atributos:
+#### Descrição: 
+Wrapper de Itens avaliados
+
+#### Atributos:
 
 <table>
   <tr>
@@ -24,7 +27,7 @@
   </tr>
 </table>
 
-- Métodos:
+#### Métodos
 
 <table>
   <tr>
@@ -39,17 +42,17 @@
   </tr>
 </table>
 
-- Usado por:
+#### Usado por
   - oononono
 
 
+### Arquivo: 
+/blocks/lvs/biblioteca/business/AtividadeLv.php
 
+#### Descrição:
+Interface para classes que implementarão um sistema de avaliação de uma atividade a distância.
 
-
-- Arquivo: **/blocks/lvs/biblioteca/business/AtividadeLv.php**
-- Descrição: **Interface para classes que implementarão um sistema de avaliação de uma atividade a distância.**
-
-- Atributos:
+#### Atributos:
 
 <table>
   <tr>
@@ -58,7 +61,7 @@
   </tr>
 </table>
 
-- Métodos abstratos:
+#### Métodos abstratos:
 
 <table>
   <tr>
@@ -91,7 +94,7 @@
   </tr>
 </table>
 
-- Métodos:
+#### Métodos
 
 <table>
   <tr>
@@ -111,10 +114,10 @@
   </tr>
 </table>
 
-- Usado por:
+#### Usado por
   - blocks\lvs\biblioteca\moodle2\business\Wikilv.php
   - blocks\lvs\biblioteca\moodle2\business\Tarefalv3.php
   - blocks\lvs\biblioteca\moodle2\business\Forumlv.php
   - blocks\lvs\biblioteca\moodle2\business\Chatlv.php
   - blocks\lvs\biblioteca\moodle2\avaliacao\Moodle2NotasLv.php
-- 
+
