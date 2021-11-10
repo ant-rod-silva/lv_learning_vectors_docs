@@ -10,14 +10,38 @@ Todo módulo do Moodle possui um esqueleto padrão, que são os arquivos necess�
   <tr>
     <td>db/access.php</td>
     <td>
-      Este arquivo deve conter as permissões para utilizar as funcionalidades do módulo. 
+      Este arquivo contém as permissões para utilizar as funcionalidades do módulo. 
       Por exemplo, alguém com perfil professor pode fazer uma edição de um determinado conteúdo, diferentemente de alguém com perfil de aluno.
     </td>
   </tr>
   <tr>
     <td>db/install.xml</td>
     <td>
-      Neste arquivo são descritas no formato XML as tabelas de banco de dados a serem utilizadas pelo módulo. Deve possuir pelo menos uma tabela, contendo o mesmo nome do módulo.
+      Este arquivo descreve, em formato XML, as tabelas de banco de dados a serem utilizadas pelo módulo. 
+    </td>
+  </tr>
+  <tr>
+    <td>db/log.php</td>
+    <td>
+      Este arquivo contém as ações que serão adicionadas ao log do módulo este quando for executado.
+    </td>
+  </tr>
+  <tr>
+    <td>db/upgrade.php</td>
+    <td>
+      Este arquivo contém as modificações a serem feitas na estrutura das tabelas do módulo.
+    </td>
+  </tr>
+  <tr>
+    <td>lang/en/nomedomodulo.php e lang/pt_br/nomedomodulo.php</td>
+    <td>
+      Este arquivo, com o mesmo nome do módulo, contém todas as strings utilizadas no módulo, conforme o idioma selecionado.
+    </td>
+  </tr>
+  <tr>
+    <td>pix/icon.gif</td>
+    <td>
+      Este arquivo é uma imagem de tamanho 16px por 16px, a qual é utilizada como ícone do módulo.
     </td>
   </tr>
 </table>
