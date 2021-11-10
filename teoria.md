@@ -394,7 +394,7 @@ quanto um fator penalizador, com variação angular Δ = -1φ, caso sejam o Verm
   <tr>
     <td>float calcularBeta($LVx, $carinhas)</td>
     <td>Calcula o fator ß dado o módulo do vetor e a quantidade de carinhas recebidas na atividade</td>
-    <td>$LVx: módulo do vetor <br/> $carinhas: array com o número de carinhas por cor [azul: int, verde: int, amarela: int, laranja: int, vermelha: int, preta: int] </td>
+    <td>$LVx: módulo do vetor <br/><br/> $carinhas: array com o número de carinhas por cor [azul: int, verde: int, amarela: int, laranja: int, vermelha: int, preta: int] </td>
   </tr>
   <tr>
     <td>float calcularModuloVetor($I)</td>
