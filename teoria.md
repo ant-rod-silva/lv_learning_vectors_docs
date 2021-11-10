@@ -357,5 +357,9 @@ quanto um fator penalizador, com variação angular Δ = -1φ, caso sejam o Verm
   - float limitarAoQuadrante($I)
     - Delimita os valores possíveis da variação angular ao primeiro quadrante
       - $I variação angular
-
-
+- Usado por:
+  - C:\xampp\htdocs\lv3_050918\blocks\lvs\biblioteca\moodle2\business\Wikilv.php
+  - C:\xampp\htdocs\lv3_050918\blocks\lvs\biblioteca\moodle2\business\Tarefalv3.php
+  - C:\xampp\htdocs\lv3_050918\blocks\lvs\biblioteca\moodle2\business\Forumlv.php
+  - C:\xampp\htdocs\lv3_050918\blocks\lvs\biblioteca\moodle2\business\Chatlv.php
+  - C:\xampp\htdocs\lv3_050918\blocks\lvs\biblioteca\moodle2\avaliacao\Moodle2NotasLv.php
