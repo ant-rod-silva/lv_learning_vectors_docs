@@ -1,4 +1,4 @@
-## ARQUITETURA DE MÓDULOS DO MOODLE
+## ESTRUTURA DE DIRETÓRIOS DE MÓDULOS DO MOODLE
 
 Todo módulo do Moodle possui um esqueleto padrão, que são os arquivos necessários para garantir o funcionamento e a integração completa com o ambiente. São estes:
 
@@ -68,6 +68,33 @@ Todo módulo do Moodle possui um esqueleto padrão, que são os arquivos necess�
     <td>
       Página que permite ver uma instância em particular.<br/>
       Quando o link de uma instância do módulo é selecionado, esta classe é executada.
+    </td>
+  </tr>
+</table>
+
+Para o desenvolvimento do plugin LV, foram criados outros diretórios e arquivos, a saber.
+
+<table>
+  <tr>
+    <th>Arquivo</th>
+    <th>Descrição</th>
+  </tr>
+  <tr>
+    <td>biblioteca</td>
+    <td>
+      -
+    </td>
+  </tr>
+  <tr>
+    <td>block_lvs.php</td>
+    <td>
+      -
+    </td>
+  </tr>
+  <tr>
+    <td>module.js</td>
+    <td>
+      -
     </td>
   </tr>
 </table>
