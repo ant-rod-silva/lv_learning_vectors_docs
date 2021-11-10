@@ -44,6 +44,25 @@ Todo módulo do Moodle possui um esqueleto padrão, que são os arquivos necess�
       Este arquivo é uma imagem de tamanho 16px por 16px, a qual é utilizada como ícone do módulo.
     </td>
   </tr>
+  <tr>
+    <td>index.php</td>
+    <td>
+      Esta classe representa a página que lista todas as instâncias criadas do módulo em um curso.
+    </td>
+  </tr>
+  <tr>
+    <td>mod_form.php</td>
+    <td>
+      Esta classe representa o formulário inicial que é apresentado quando se cria ou modifica uma instância do módulo.
+    </td>
+  </tr>
+  <tr>
+    <td>version.php</td>
+    <td>
+      Indica a versão do módulo. Utilizado para fazer upgrades.<br/>
+      Se durante o desenvolvimento do módulo (que já foi instalado) forem necessárias mudanças na sua estrutura (tabelas ou permissões de acesso), o Moodle deve ser forçado a recarregar essa estrutura. Para que isso ocorra, o número da versão deve ser incrementado. 
+    </td>
+  </tr>
 </table>
 
 ## DIRETÓRIOS
