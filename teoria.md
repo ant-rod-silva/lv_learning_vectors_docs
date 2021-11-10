@@ -27,15 +27,16 @@ Os LVs reúnem aspectos qualitativos e quantitativos no acompanhamento de desemp
 
 ```
 
-|  Termo       | Definição                                                                               |
-|--------------|-----------------------------------------------------------------------------------------|
-| α            | Ângulo que representa o passo padrão de aprendizagem.                                   |
-| I            | Variação Angular Total do vetor. Varia conforme as avaliações do Professor/Tutor.       |
-| θ            | nota mínima                                                                             |
-| θ            | nota máxima                                                                             |
-| LVx          | Expressa a nota em cada atividade.                                                      |
-| LVy          | Relaciona-se à negatividade do seu desempenho.                                          |
-| Fator β      | Pode indicar o nível de desempenho do aluno no curso online.                            |
+## TERMOS E DEFINICOES
+
+**α:** Ângulo que representa o passo padrão de aprendizagem.
+**I:** Variação Angular Total do vetor. Varia conforme as avaliações do Professor/Tutor.
+**θ:** nota mínima OU nota máxima.
+**LVx:** Expressa a nota em cada atividade.
+**LVy:** Relaciona-se à negatividade do seu desempenho.
+**Fator β:** Pode indicar o nível de desempenho do aluno no curso online.
+**Positividade:** É o somatório das projeções horizontais das notas nas Atividades (LVx), acrescido do somatório do Número de Gifs de cor Azul, Verde e Amarela, respectivamente ponderados e associados às menções qualitativas “Muito Bom” (Gif Azul - peso 3), “Bom” (Gif Verde - peso 2) ou “Regular” (Gif Amarelo - peso 1).
+**Negatividade:** É o somatório das projeções verticais dos vetores correlacionados às notas de cada atividade, acrescido do Número Total de Faltas, mais o somatório dos Gifs de cor Laranja e Vermelha, associados às menções qualitativas “Fraco” (Gif Laranja - peso 1) ou “Não Satisfatório” (Gif Vermelho - peso 2).
 
 ## EQUAÇÕES
 
