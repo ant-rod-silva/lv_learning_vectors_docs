@@ -363,3 +363,6 @@ Interface para classes que implementarão um sistema de avaliação de uma ativi
   - blocks\lvs\biblioteca\moodle2\business\Chatlv.php
   - blocks\lvs\biblioteca\moodle2\avaliacao\Moodle2NotasLv.php
 
+## TEMAS
+
+todos os elementos do front-end do Moodle estão em uma pasta no seguinte diretório: /theme/nombretheme
