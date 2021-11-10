@@ -1,3 +1,18 @@
+## DIRETÓRIOS
+
+### IMAGENS
+
+/blocks/lvs/imgs/lvometro/
+/blocks/lvs/imgs/carinhas
+/blocks/lvs/imgs/menu/
+
+### PÁGINAS
+
+Caixa do bloco Notas LV (à direita) - blocks/lvs/pages/html/block_lvs.html
+Página de créditos - blocks/lvs/pages/creditos_lvs.php.html
+Atividades a distância - pages/html/distancia/atividades_distancia
+
+
 ## ARQUIVOS
 
 ### Arquivo: 
