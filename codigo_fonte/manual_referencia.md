@@ -1,3 +1,38 @@
+# MANUAL DE REFERÊNCIA
+
+## TECNOLOGIAS EMPREGADAS
+
+<table>
+  <tr>
+    <th>Tecnologia</th>
+    <th>Descrição</th>
+  </tr>
+  <tr>
+    <td>Html</td>
+    <td>
+      -
+    </td>
+  </tr>
+  <tr>
+    <td>JavaScript</td>
+    <td>
+      -
+    </td>
+  </tr>
+  <tr>
+    <td>CSS</td>
+    <td>
+      -
+    </td>
+  </tr>
+  <tr>
+    <td>PHP</td>
+    <td>
+      -
+    </td>
+  </tr>
+</table>
+
 ## ESTRUTURA DE DIRETÓRIOS DE MÓDULOS DO MOODLE
 
 Todo módulo do Moodle possui um esqueleto padrão, que são os arquivos necessários para garantir o funcionamento e a integração completa com o ambiente. São estes:
