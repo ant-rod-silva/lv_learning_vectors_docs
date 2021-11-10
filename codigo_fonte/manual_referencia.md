@@ -49,6 +49,51 @@ Wrapper de Itens avaliados
     <td>Retorna o nome da atividade a qual o item pertence</td>
     <td>-</td>
   </tr>
+  <tr>
+    <td>getAvaliacao( )</td>
+    <td>Retorna a avaliação do item</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>getComponente( )</td>
+    <td>Retorna o nome do componente avaliado</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>getItem( )</td>
+    <td>Retorna o item avaliado</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>setAtividade( $atividade )</td>
+    <td>Altera o nome da atividade a qual o item pertence</td>
+    <td>$atividade: nome da atividade</td>
+  </tr>
+  <tr>
+    <td>setAvaliacao( AvaliacaoLv $avaliacao )</td>
+    <td>Altera a avaliação do item</td>
+    <td>$avaliacao: nova avaliação</td>
+  </tr>
+  <tr>
+    <td>setComponente( $componente )</td>
+    <td>Altera o nome do componente avaliado</td>
+    <td>$componente nome do componente</td>
+  </tr>
+  <tr>
+    <td>setItem( $item )</td>
+    <td>Altera o item avaliado</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>serialize()</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>unserialize()</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
 </table>
 
 #### Usado por
