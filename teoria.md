@@ -27,15 +27,29 @@ Os LVs reúnem aspectos qualitativos e quantitativos no acompanhamento de desemp
 
 ```
 
-|  Termo   | Definição                                                                               | Equação                    |
-|----------|-----------------------------------------------------------------------------------------|----------------------------|
-| α        | Ângulo que representa o passo padrão de aprendizagem.                                   | 7.5°                       | 
-| I        | Variação Angular Total do vetor. Varia conforme as avaliações do Professor/Tutor.       | I = (n/2) * α              |
-| θ        | nota mínima                                                                             | θ = -90                    |
-| θ        | nota máxima                                                                             | θ = 0                      |
-| LVx      | Relaciona-se à positividade de desempenho do aluno. Expressa a nota em cada atividade.  | LVx = 10 * cos[(-12a + I)] |
-| LVy      | Relaciona-se à negatividade do seu desempenho.                                          | LVy = 10 * sen[(-12a + I)] |
-| Fator β  | Pode indicar o nível de desempenho do aluno no curso online.                            | β = LVx / LVy              | 
+|  Termo       | Definição                                                                               |
+|--------------|-----------------------------------------------------------------------------------------|
+| α            | Ângulo que representa o passo padrão de aprendizagem.                                   |
+| I            | Variação Angular Total do vetor. Varia conforme as avaliações do Professor/Tutor.       |
+| θ            | nota mínima                                                                             |
+| θ            | nota máxima                                                                             |
+| LVx          | Expressa a nota em cada atividade.                                                      |
+| LVy          | Relaciona-se à negatividade do seu desempenho.                                          |
+| Fator β      | Pode indicar o nível de desempenho do aluno no curso online.                            |
+
+## EQUAÇÕES
+
+|  Termo       | Equação                                                                              |
+|--------------|--------------------------------------------------------------------------------------|
+| α            | 7.5°                                                                                 |
+| I            | I = (n/2) * α                                                                        |
+| θ            | θ = -90                                                                              |
+| θ            | θ = 0                                                                                |
+| LVx          | LVx = 10 * cos[(-12a + I)]                                                           |
+| LVy          | LVy = 10 * sen[(-12a + I)]                                                           |
+| Fator β      | β = LVx / LVy                                                                        | 
+| Positividade | P = $LVx + (3 * $carinhas['azul']) + (2 * $carinhas['verde']) + $carinhas['amarela'] |
+| Negatividade | N = sqrt(100 - pow($LVx, 2)) + $carinhas['laranja'] + (2 * $carinhas['vermelha'])    |
 
 ## VARIÁVEL I
 
