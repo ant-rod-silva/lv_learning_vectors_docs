@@ -346,6 +346,8 @@ quanto um fator penalizador, com variação angular Δ = -1φ, caso sejam o Verm
 
 - Arquivo: **/blocks/lvs/biblioteca/business/AtividadeLv.php**
 - Descrição: **Interface para classes que implementarão um sistema de avaliação de uma atividade a distância.**
+- Atributos:
+  - const ALFA = 7.5;
 - Métodos:
   - float calcularBeta($LVx, $carinhas)
     - Calcula o fator ß dado o módulo do vetor e a quantidade de carinhas recebidas na atividade
@@ -353,10 +355,10 @@ quanto um fator penalizador, com variação angular Δ = -1φ, caso sejam o Verm
       - $carinhas: array com o número de carinhas por cor [azul: int, verde: int, amarela: int, laranja: int, vermelha: int, preta: int]
   - float calcularModuloVetor($I)
     - Calcula o módulo do vetor LVx dada a variação angular
-      - $I variação angular
+      - $I: variação angular
   - float limitarAoQuadrante($I)
     - Delimita os valores possíveis da variação angular ao primeiro quadrante
-      - $I variação angular
+      - $I: variação angular
 - Usado por:
   - blocks\lvs\biblioteca\moodle2\business\Wikilv.php
   - blocks\lvs\biblioteca\moodle2\business\Tarefalv3.php
