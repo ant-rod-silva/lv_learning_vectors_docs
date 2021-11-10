@@ -1,3 +1,5 @@
+## ARQUITETURA DE MÓDULOS DO MOODLE
+
 Todo módulo do Moodle possui um esqueleto padrão, que são os arquivos necessários para garantir o funcionamento e a integração completa com o ambiente. São estes:
 
 <table>
