@@ -366,3 +366,13 @@ Interface para classes que implementarão um sistema de avaliação de uma ativi
 ## TEMAS
 
 todos os elementos do front-end do Moodle estão em uma pasta no seguinte diretório: /theme/nombretheme
+
+## CARINHAS / LV ICONES / LV GIFS / LV JELLY
+
+Arquivos
+
+- blocks\lvs\biblioteca\Carinhas.php
+- blocks\lvs\biblioteca\moodle2\business\CursoLv.php
+- blocks\lvs\biblioteca\moodle2\business\Moodle2CursoLv.php
+
+
