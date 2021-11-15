@@ -377,10 +377,7 @@ Arquivos
 
 ## AVALIAÇÃO
 
-Arquivos
-
-- blocks\lvs\biblioteca\forms\FormsAvaliacaoImpl.php (class) FormsAvaliacao
-
+### blocks\lvs\biblioteca\forms\FormsAvaliacao.php
 
 <TABLE>
   <TR>
@@ -393,7 +390,7 @@ Arquivos
       <strong>Arquivo</strong>
     </TD>
     <TD>
-      <strong>Descrição</strong>
+      <strong>Tipo</strong>
     </TD>
   </tr>
   <TR>
@@ -475,11 +472,49 @@ Arquivos
   </TR>
 </TABLE>
   
- 
- 
+### blocks\lvs\biblioteca\forms\FormsAvaliacaoImpl.php
 
-
-
-
-
-- 
+<TABLE>
+  <TR>
+    <TD COLSPAN="2" align="center" valign="center">
+      <STRONG>ARQUIVO</STRONG>
+    </TD>
+  </TR>
+  <TR>
+    <TD>
+      <strong>Arquivo</strong>
+    </TD>
+    <TD>
+      <strong>Tipo</strong>
+    </TD>
+  </tr>
+  <TR>
+    <TD>
+      blocks\lvs\biblioteca\forms\FormsAvaliacaoImpl.php
+    </TD>
+    <TD>
+      class
+    </TD>    
+  </TR>
+  <TR>
+    <TD COLSPAN="2" align="center" valign="center">
+      <STRONG>MÉTODOS</STRONG>
+    </TD>
+  </TR>
+  <TR>
+    <TD>
+      <strong>Método</strong>
+    </TD>
+    <TD>
+      <strong>Descrição</strong>
+    </TD>
+  </tr>
+  <TR>
+    <TD>
+      -
+    </TD>
+    <TD>
+      -
+    </TD>    
+  </TR>
+</TABLE>
