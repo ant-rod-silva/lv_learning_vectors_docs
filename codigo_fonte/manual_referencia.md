@@ -476,38 +476,27 @@ Arquivos
 
 <TABLE>
   <TR>
-    <TD COLSPAN="2" align="center" valign="center">
+    <TD COLSPAN="3" align="center" valign="center">
       <STRONG>ARQUIVO</STRONG>
     </TD>
   </TR>
   <TR>
-    <TD>
-      <strong>Arquivo</strong>
-    </TD>
-    <TD>
-      <strong>Tipo</strong>
-    </TD>
+    <TD><strong>Arquivo</strong></TD>
+    <TD><strong>Tipo</strong></TD>
+    <TD><strong>Implementa</strong></TD>
   </tr>
   <TR>
-    <TD>
-      blocks\lvs\biblioteca\forms\FormsAvaliacaoImpl.php
-    </TD>
-    <TD>
-      class
-    </TD>    
+    <TD>blocks\lvs\biblioteca\forms\FormsAvaliacaoImpl.php</TD>
+    <TD>class</TD>
+    <td>FormsAvaliacao</td>
   </TR>
   <TR>
-    <TD COLSPAN="2" align="center" valign="center">
-      <STRONG>MÉTODOS</STRONG>
-    </TD>
+    <TD COLSPAN="3" align="center" valign="center"><STRONG>MÉTODOS</STRONG></TD>
   </TR>
   <TR>
-    <TD>
-      <strong>Método</strong>
-    </TD>
-    <TD>
-      <strong>Descrição</strong>
-    </TD>
+    <TD><strong>Método</strong></TD>
+    <TD><strong>Descrição</strong></TD>
+    <td></td>
   </tr>
   <TR>
     <TD>
@@ -516,5 +505,6 @@ Arquivos
     <TD>
       -
     </TD>    
+    <TD></TD>    
   </TR>
 </TABLE>
