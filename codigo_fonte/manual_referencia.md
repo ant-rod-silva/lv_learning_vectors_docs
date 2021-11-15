@@ -491,6 +491,29 @@ Arquivos
     <td>FormsAvaliacao</td>
   </TR>
   <TR>
+    <TD COLSPAN="3" align="center" valign="center"><STRONG>ATRIBUTOS</STRONG></TD>
+  </TR>
+  <TR>
+    <TD><strong>Atributos</strong></TD>
+    <TD><strong>Descrição</strong></TD>
+    <td></td>
+  </tr>
+  <TR>
+    <TD>private $_carinhas;</TD>
+    <TD>Contém o html gerado pelos métodos de geração de formulário</TD>
+    <td></td>
+  </tr>
+  <TR>
+    <TD>private $_data;</TD>
+    <TD>Contém o html gerado pelos métodos de geração de formulário </TD>
+    <td></td>
+  </tr>
+  <TR>
+    <TD>private $_template;</TD>
+    <TD>Template</TD>
+    <td></td>
+  </tr>
+  <TR>
     <TD COLSPAN="3" align="center" valign="center"><STRONG>MÉTODOS</STRONG></TD>
   </TR>
   <TR>
