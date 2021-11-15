@@ -402,7 +402,9 @@ Arquivos
     </TD>
     <TD>
       <strong>descrição</strong>
-    </TD>    
+    </TD>
+  </tr>
+  <TR>
     <TD>
       public function adicionarInput($atributos);
     </TD>
