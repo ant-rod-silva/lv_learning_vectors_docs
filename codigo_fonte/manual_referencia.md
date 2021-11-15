@@ -375,4 +375,90 @@ Arquivos
 - blocks\lvs\biblioteca\moodle2\business\CursoLv.php
 - blocks\lvs\biblioteca\moodle2\business\Moodle2CursoLv.php
 
+## AVALIAÇÃO
 
+Arquivos
+
+- blocks\lvs\biblioteca\forms\FormsAvaliacaoImpl.php (class) FormsAvaliacao
+
+
+<TABLE>
+  <TR>
+    <TD>
+      blocks\lvs\biblioteca\forms\FormsAvaliacao.php
+    </TD>
+    <TD>
+      interface
+    </TD>    
+  </TR>
+  <TR>
+    <TD COLSPAN="2">
+      MÉTODOS
+    </TD>
+  </TR>
+  <TR>
+    <TD>
+      public function adicionarInput($atributos);
+    </TD>
+    <TD>
+      Adiciona um input hidden ao formulário
+    </TD>    
+  </TR>
+  <TR>
+    <TD>
+      public function avaliacaoAtual($avaliacao);
+    </TD>
+    <TD>
+      Constrói html com a avaliação atual
+    </TD>    
+  </TR>
+  <TR>
+    <TD>
+      public function avaliacaoPor($nome);
+    </TD>
+    <TD>
+      Constrói html com o nome do avaliador
+    </TD>    
+  </TR>
+  <TR>
+    <TD>
+      public function likert($avaliacaoAtual);
+    </TD>
+    <TD>
+      -
+    </TD>    
+  </TR>
+  <TR>
+    <TD>
+      public function likertAjax($avaliacaoAtual);
+    </TD>
+    <TD>
+      -
+    </TD>    
+  </TR>
+  <TR>
+    <TD>
+      public function likertEstendido($avaliacaoAtual);
+    </TD>
+    <TD>
+      -
+    </TD>    
+  </TR>
+  <TR>
+    <TD>
+      public function likertEstendidoAjax($avaliacaoAtual);
+    </TD>
+    <TD>
+      -
+    </TD>    
+  </TR>
+</TABLE>
+  
+ 
+ 
+
+
+
+
+
+- 
