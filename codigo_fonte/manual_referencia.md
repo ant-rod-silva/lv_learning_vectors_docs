@@ -523,10 +523,37 @@ Arquivos
   </tr>
   <TR>
     <TD>
-      -
+      public function __construct()
     </TD>
     <TD>
-      -
+      Instancia FormsAvaliacaoImpl 
+    </TD>    
+    <TD></TD>    
+  </TR>
+  <TR>
+    <TD>
+      public function adicionarInput($atributos)
+    </TD>
+    <TD>
+      Adiciona um input hidden no formulário
+    </TD>    
+    <TD></TD>    
+  </TR>
+  <TR>
+    <TD>
+      public function avaliacaoAtual($avaliacaoAtual)
+    </TD>
+    <TD>
+      Retorna o componente html que exibe a nota lv da avaliação
+    </TD>    
+    <TD></TD>    
+  </TR>
+  <TR>
+    <TD>
+      public function avaliacaoPor($nome)
+    </TD>
+    <TD>
+      Html que exibe o avaliador
     </TD>    
     <TD></TD>    
   </TR>
