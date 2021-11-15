@@ -393,10 +393,16 @@ Arquivos
   </TR>
   <TR>
     <TD COLSPAN="2">
-      MÉTODOS
+      <CENTER><STRONG>MÉTODOS<STRONG></CENTER>
     </TD>
   </TR>
   <TR>
+    <TD>
+      <strong>Método</strong>
+    </TD>
+    <TD>
+      <strong>descrição</strong>
+    </TD>    
     <TD>
       public function adicionarInput($atributos);
     </TD>
