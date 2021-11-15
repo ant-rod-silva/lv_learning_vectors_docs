@@ -390,6 +390,14 @@ Arquivos
   </TR>
   <TR>
     <TD>
+      <strong>Arquivo</strong>
+    </TD>
+    <TD>
+      <strong>Descrição</strong>
+    </TD>
+  </tr>
+  <TR>
+    <TD>
       blocks\lvs\biblioteca\forms\FormsAvaliacao.php
     </TD>
     <TD>
@@ -406,7 +414,7 @@ Arquivos
       <strong>Método</strong>
     </TD>
     <TD>
-      <strong>descrição</strong>
+      <strong>Descrição</strong>
     </TD>
   </tr>
   <TR>
