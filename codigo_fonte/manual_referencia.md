@@ -384,7 +384,7 @@ Arquivos
 
 <TABLE>
   <TR>
-    <TD COLSPAN="2">
+    <TD COLSPAN="2" align="center" valign="center">
       <STRONG>ARQUIVO</STRONG>
     </TD>
   </TR>
@@ -397,7 +397,7 @@ Arquivos
     </TD>    
   </TR>
   <TR>
-    <TD COLSPAN="2">
+    <TD COLSPAN="2" align="center" valign="center">
       <STRONG>MÉTODOS</STRONG>
     </TD>
   </TR>
