@@ -557,4 +557,58 @@ Arquivos
     </TD>    
     <TD></TD>    
   </TR>
+  <TR>
+    <TD>
+      public function likert($avaliacaoAtual)
+    </TD>
+    <TD>
+      Retorna um formulário html com escala icônica likert para avaliação de um Item
+    </TD>    
+    <TD></TD>    
+  </TR>
+  <TR>
+    <TD>
+      public function getForm()
+    </TD>
+    <TD>
+      -
+    </TD>    
+    <TD></TD>    
+  </TR>
+  <TR>
+    <TD>
+      public function likertAjax($avaliacaoAtual)
+    </TD>
+    <TD>
+      Retorna um formulário ajax html com escala icônica likert para avaliação de um Item
+    </TD>    
+    <TD></TD>    
+  </TR>
+  <TR>
+    <TD>
+      public function likertEstendido($avaliacaoAtual)
+    </TD>
+    <TD>
+      Retorna o formulário html estendido para avaliação de um Item
+    </TD>    
+    <TD></TD>    
+  </TR>
+  <TR>
+    <TD>
+      public function likertEstendidoAjax($avaliacaoAtual)
+    </TD>
+    <TD>
+      -
+    </TD>    
+    <TD></TD>    
+  </TR>
+  <TR>
+    <TD>
+      private function _criarInputHidden($domDocument, $atributos)
+    </TD>
+    <TD>
+      Cria um input hidden com os atributos fornecidos
+    </TD>    
+    <TD></TD>    
+  </TR>
 </TABLE>
