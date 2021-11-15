@@ -384,6 +384,11 @@ Arquivos
 
 <TABLE>
   <TR>
+    <TD COLSPAN="2" style="text-align:center; font-weight: bold">
+      ARQUIVO
+    </TD>
+  </TR>
+  <TR>
     <TD>
       blocks\lvs\biblioteca\forms\FormsAvaliacao.php
     </TD>
@@ -392,8 +397,8 @@ Arquivos
     </TD>    
   </TR>
   <TR>
-    <TD COLSPAN="2">
-      <CENTER><STRONG>MÉTODOS<STRONG></CENTER>
+    <TD COLSPAN="2" style="text-align:center; font-weight: bold">
+      MÉTODOS
     </TD>
   </TR>
   <TR>
