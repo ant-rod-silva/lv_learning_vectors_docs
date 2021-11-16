@@ -1,9 +1,12 @@
-Trocar as cores
-https://www6.lunapic.com/editor/
- * Adjust - Change Color Tint
+* Exportar Imagens de um GIF
+  * ApowersoftGIFPortable
 
-Redimensionar imagens em lote
-https://www.birme.net/?target_width=64&target_height=64
+* Trocar as cores
+  * https://www6.lunapic.com/editor/
+  * Adjust - Change Color Tint
 
-Gerador de gradientes
-https://colordesigner.io/gradient-generator
+* Redimensionar imagens em lote
+  * https://www.birme.net/?target_width=64&target_height=64
+
+* Gerador de gradientes
+  * https://colordesigner.io/gradient-generator
