@@ -10,3 +10,6 @@
 
 * Gerador de gradientes
   * https://colordesigner.io/gradient-generator
+
+* Detector de borda
+https://pinetools.com/image-edge-detection
