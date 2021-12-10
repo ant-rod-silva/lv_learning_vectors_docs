@@ -52,12 +52,18 @@ Os LVs reúnem aspectos qualitativos e quantitativos no acompanhamento de desemp
 | Positividade | P = $LVx + (3 * $carinhas['azul']) + (2 * $carinhas['verde']) + $carinhas['amarela'] |
 | Negatividade | N = sqrt(100 - pow($LVx, 2)) + $carinhas['laranja'] + (2 * $carinhas['vermelha'])    |
 
-## VARIÁVEL I
+Passo padrão da aprendizagem = 7.5°
 
-VARIAÇÃO ANGULAR TOTAL DO VETOR
+## Ângulo α
 
-A DIREÇÃO DO LV VARIA DE ACORDO COM O VALOR DE **I**, DADA EM FUNCAO DO ANGULO **a** QUE FOI SELECIONADO EMPIRICAMENTE POR DIVIDIR O ANGULO DE 90 GRAUS EM **n** PARTES IGUAIS
-A DETERMINACAO DOS 25 POSSIVEIS VALORES SE DA POR:
+Selecionado empiricamente por dividir o ângulo de 90 graus em **n** partes iguais.
+Assumindo 25 valores (24 partes), então 90/24 = 3.25°.
+
+## Ângulo I
+
+Variação angular total do vetor;
+A direção do |LV| varia de acordo com o valor de **I**, dada em função do ângulo **α**, 
+A determinação dos 25 possíveis valores se dá por:
 
 ```
 i = (n/2) * α
@@ -66,7 +72,7 @@ i = (n/2) * α
 sendo que
 
 ```
-n >=0 e n <= 24
+n ≥ 0 e n ≤ 24
 α = 7.5
 ```
 
@@ -76,38 +82,36 @@ ESSES 25 POSSIVEIS VALORES FACILITAM A ESPECIFICACAO DO LV
 i = (n/2) * α
 ```
 
-| Para n  |  Calculo i      | Valor angulo  | Equação simplificada |
-|---------|-----------------|---------------|----------------------|
-|  0      |  i = 0/2 * 7.5  |  0°            |  I = 0α             |
-|  1      |  i = 1/2 * 7.5  |  3.75°         |  I = 0,5α           |
-|  2      |  i = 2/2 * 7.5  |  7.5°          |  I = α              |
-|  3      |  i = 3/2 * 7.5  |  11.25°        |  I = 1,5α           |
-|  4      |  i = 4/2 * 7.5  |  15°           |  I = 2α             |
-|  5      |  i = 5/2 * 7.5  |  18.75°        |  I = 2,5α           |
-|  6      |  i = 6/2 * 7.5  |  22.5°         |  I = 3α             |
-|  7      |  i = 7/2 * 7.5  |  26.25°        |  I = 3,5α           |
-|  8      |  i = 8/2 * 7.5  |  30°           |  I = 4α             |
-|  9      |  i = 9/2 * 7.5  |  33.75°        |  I = 4,5α           |
-|  10     |  i = 10/2 * 7.5 |  37.5°         |  I = 5α             |
-|  11     |  i = 11/2 * 7.5 |  41.25°        |  I = 5,5α           |
-|  12     |  i = 12/2 * 7.5 |  45°           |  I = 6α             |
-|  13     |  i = 13/2 * 7.5 |  48.75°        |  I = 6,5α           |
-|  14     |  i = 14/2 * 7.5 |  52.5°         |  I = 7α             |
-|  15     |  i = 15/2 * 7.5 |  56.25°        |  I = 7,5α           |
-|  16     |  i = 16/2 * 7.5 |  60°           |  I = 8α             |
-|  17     |  i = 17/2 * 7.5 |  63.75°        |  I = 8,5α           |
-|  18     |  i = 18/2 * 7.5 |  67.5°         |  I = 9α             |
-|  19     |  i = 19/2 * 7.5 |  71.25°        |  I = 9,5α           |
-|  20     |  i = 20/2 * 7.5 |  75°           |  I = 10α            |
-|  21     |  i = 21/2 * 7.5 |  78.75°        |  I = 10,5α          |
-|  22     |  i = 22/2 * 7.5 |  82.5°         |  I = 11α            |
-|  23     |  i = 23/2 * 7.5 |  86.25°        |  I = 11,5α          |
-|  24     |  i = 24/2 * 7.5 |  90°           |  I = 12α            |
+| Para n  |  Calculo I      | Valor angulo I | Equação simplificada |
+|:--------|:----------------|:---------------|:---------------------|
+|  0      |  i = 0/2 * 7.5  |  0°            |  I = 0α              |
+|  1      |  i = 1/2 * 7.5  |  3.75°         |  I = 0,5α            |
+|  2      |  i = 2/2 * 7.5  |  7.5°          |  I = α               |
+|  3      |  i = 3/2 * 7.5  |  11.25°        |  I = 1,5α            |
+|  4      |  i = 4/2 * 7.5  |  15°           |  I = 2α              |
+|  5      |  i = 5/2 * 7.5  |  18.75°        |  I = 2,5α            |
+|  6      |  i = 6/2 * 7.5  |  22.5°         |  I = 3α              |
+|  7      |  i = 7/2 * 7.5  |  26.25°        |  I = 3,5α            |
+|  8      |  i = 8/2 * 7.5  |  30°           |  I = 4α              |
+|  9      |  i = 9/2 * 7.5  |  33.75°        |  I = 4,5α            |
+|  10     |  i = 10/2 * 7.5 |  37.5°         |  I = 5α              |
+|  11     |  i = 11/2 * 7.5 |  41.25°        |  I = 5,5α            |
+|  12     |  i = 12/2 * 7.5 |  45°           |  I = 6α              |
+|  13     |  i = 13/2 * 7.5 |  48.75°        |  I = 6,5α            |
+|  14     |  i = 14/2 * 7.5 |  52.5°         |  I = 7α              |
+|  15     |  i = 15/2 * 7.5 |  56.25°        |  I = 7,5α            |
+|  16     |  i = 16/2 * 7.5 |  60°           |  I = 8α              |
+|  17     |  i = 17/2 * 7.5 |  63.75°        |  I = 8,5α            |
+|  18     |  i = 18/2 * 7.5 |  67.5°         |  I = 9α              |
+|  19     |  i = 19/2 * 7.5 |  71.25°        |  I = 9,5α            |
+|  20     |  i = 20/2 * 7.5 |  75°           |  I = 10α             |
+|  21     |  i = 21/2 * 7.5 |  78.75°        |  I = 10,5α           |
+|  22     |  i = 22/2 * 7.5 |  82.5°         |  I = 11α             |
+|  23     |  i = 23/2 * 7.5 |  86.25°        |  I = 11,5α           |
+|  24     |  i = 24/2 * 7.5 |  90°           |  I = 12α             |
 
+## Vetor LVx
 
-## Positividade de desempenho
-
-Componente horizontal do vetor LV
 Leva em consideração a variável **I**
 Representado por Lvx
 Representa uma nota
