@@ -52,13 +52,12 @@ Os LVs reúnem aspectos qualitativos e quantitativos no acompanhamento de desemp
 | Positividade | P = $LVx + (3 * $carinhas['azul']) + (2 * $carinhas['verde']) + $carinhas['amarela'] |
 | Negatividade | N = sqrt(100 - pow($LVx, 2)) + $carinhas['laranja'] + (2 * $carinhas['vermelha'])    |
 
-
 ## Ângulo α
 
 - Selecionado empiricamente por dividir o ângulo de 90 graus em **n** partes iguais.
-- Ângulo de 90 graus em 12 partes = 7,5°
-- Ângulo de 90 graus em 24 partes = 3,25°
-- Passo padrão da aprendizagem = 7.5°
+- Ângulo de 90 graus em 12 partes → α = 7,5° (90/12)
+- Ângulo de 90 graus em 24 partes → α = 3,25° (90/24)
+- Passo padrão da aprendizagem → α = 7.5°
 
 ## Ângulo I
 
