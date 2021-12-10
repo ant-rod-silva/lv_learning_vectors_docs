@@ -56,30 +56,24 @@ Passo padrão da aprendizagem = 7.5°
 
 ## Ângulo α
 
-Selecionado empiricamente por dividir o ângulo de 90 graus em **n** partes iguais. 
-Assumindo 25 valores (24 partes), então 90/24 = 3.25°.
+- Selecionado empiricamente por dividir o ângulo de 90 graus em **n** partes iguais. 
+- Assumindo 25 valores (24 partes), então 90/24 = 3.25°.
 
 ## Ângulo I
 
-Variação angular total do vetor;
-A direção do |LV| varia de acordo com o valor de **I**, dada em função do ângulo **α**, 
-A determinação dos 25 possíveis valores se dá por:
+- Variação angular total do vetor;
+- A direção do |LV| varia de acordo com o valor de **I**, dada em função do ângulo **α**, 
+- A determinação dos 25 possíveis valores (que facilitam a especificação do LV) se dá por:
 
 ```
 i = (n/2) * α
 ```
 
-sendo que
+- sendo que
 
 ```
 n ≥ 0 e n ≤ 24
 α = 7.5
-```
-
-ESSES 25 POSSIVEIS VALORES FACILITAM A ESPECIFICACAO DO LV
-
-```
-i = (n/2) * α
 ```
 
 | Para n  |  Calculo I      | Valor angulo I | Equação simplificada |
