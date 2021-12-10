@@ -56,7 +56,7 @@ Passo padrão da aprendizagem = 7.5°
 
 ## Ângulo α
 
-Selecionado empiricamente por dividir o ângulo de 90 graus em **n** partes iguais.
+Selecionado empiricamente por dividir o ângulo de 90 graus em **n** partes iguais. 
 Assumindo 25 valores (24 partes), então 90/24 = 3.25°.
 
 ## Ângulo I
