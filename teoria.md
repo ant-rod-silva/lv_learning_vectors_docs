@@ -218,18 +218,18 @@ LVx = 10
 | 23 |  (23/2) * 7.5 |  86.25        |  I = 11,5a           | LVx = 10 * cos[(-12a + 11,5a)] | 9.978589232386035  | 9.98   |
 | 24 |  (24/2) * 7.5 |  90           |  I = 12a             | LVx = 10 * cos[(-12a + 12a)]   | 10.0               | 10.00  |
 
+Python 3
 
 ```python
+import math
 print("Cálculo de LVx e nota")
-n = 8
 a = 7.5
-i = (n/2) * 7.5
-print(i)
-cosseno = math.cos(  math.radians(-12 * a + i)  )
-LVx = 10 * cosseno
-print(LVx)
-nota = round(LVx, 2)
-print(nota)
+for n in range(0, 25):
+  i = (n/2) * 7.5
+  cosseno = math.cos(  math.radians(-12 * a + i)  )
+  lvx = 10 * cosseno
+  nota = round(lvx, 2)
+  print("n: " + str(n) + ", i: " + str(i) + ", LVx: " + str(lvx) + ", nota: " + str(nota))
 ```
 
 ## Negatividade de desempenho
