@@ -76,6 +76,8 @@ n ≥ 0 e n ≤ 24
 α = 7.5
 ```
 
+Valores da variável I (SALES, 2010, p. 89, equação 4.2)
+
 | Para n  |  Calculo I      | Valor angulo I | Equação simplificada |
 |:--------|:----------------|:---------------|:---------------------|
 |  0      |  i = 0/2 * 7.5  |  0°            |  I = 0α              |
@@ -122,6 +124,8 @@ LVx = 10 * cos[(-12α + I)]
 I = Variação Angular Total do vetor
 a = 7.5
 ```
+
+Variação Angular Total do Vetor e Correspondentes Valores de Notas (SALES, 2010, p.89-90)
 
 | n  |  Calculo I                       | I             | LVx = 10 * cos[(-12α + I)]     | LVx                | Nota   |
 |:---|:---------------------------------|:--------------|:-------------------------------|:-------------------|:-------|
