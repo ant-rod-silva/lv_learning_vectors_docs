@@ -245,7 +245,18 @@ LVx = 10 * 1
 LVx = 10
 ```
 
+## Coeficiente de passo, escala de menções qualitativas, fator multiplicador e variação angular
 
+- coeficiente de passo (CP)
+- 4, 3, 2, 1, 0, -2
+- correlaciona-se à escala de menção qualitativa
+
+- MUITO_BOM, BOM, REGULAR, FRACO, NAO_SATISFATORIO, NEUTRO
+- corresponde à cada interação avaliada
+
+- fator multiplicador (m) definido por => m = x / 2, sendo que x >= 1 e x <= 6 
+- usado em conjunto com o coeficiente de passo (CP)
+- variação angular: 
 
 ## Negatividade de desempenho
 
