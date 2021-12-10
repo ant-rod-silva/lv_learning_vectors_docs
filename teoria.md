@@ -247,9 +247,37 @@ LVx = 10
 
 ## Coeficiente de passo, escala de menções qualitativas, fator multiplicador e variação angular
 
-- coeficiente de passo (CP)
-- 4, 3, 2, 1, 0, -2
-- correlaciona-se à escala de menção qualitativa
+## Coeficiente de passo (CP), Escala de menção qualitativa e Fator multiplicador (m)
+
+- Coeficiente de passo
+  - Escala numérica de seis valores: - 4, 3, 2, 1, 0, -2
+  - Correlaciona-se à escala de menção qualitativa
+- Escala de menção qualitativa
+  - Auxilia na determinação das mudanças discretas de direção do vetor |LV|, auxiliado pelo fator multiplicador m
+  - Valores
+    - Muito bom: CP = 4 
+    - Bom: CP = 3
+    - Regular: CP = 2
+    - Fraco: CP = 1
+    - Não satisfatório: CP = 0
+    - Neutro: CP = -2
+- Fator multiplicador m
+  - Definido por m = x/2
+  - x está no intervalo que abrange x >= 1 e x <= 6
+  - Valores:
+    - Se x = 1, m = 1/2
+    - Se x = 2, m = 2/2 = 1
+    - Se x = 3, m = 3/2
+    - Se x = 4, m = 4/2 = 2
+    - Se x = 5, m = 5/2
+    - Se x = 6, m = 6/2 = 3
+  - Relaciona-se com a quantidade de interações mínimas necessárias (Postagens no fórum LV)
+    - Se m = 1, interações mínimas = 10
+    - Se m = 2, interações mínimas = 6
+    - Se m = 3, interações mínimas = 2
+    - Se m = 6, interações mínimas = 1
+
+## 
 
 - MUITO_BOM, BOM, REGULAR, FRACO, NAO_SATISFATORIO, NEUTRO
 - corresponde à cada interação avaliada
