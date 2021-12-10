@@ -29,7 +29,7 @@ Os LVs reúnem aspectos qualitativos e quantitativos no acompanhamento de desemp
 
 ## TERMOS E DEFINICOES
 
-* **α:** Ângulo que representa o passo padrão de aprendizagem.
+* **α:** Ângulo que representa o passo padrão de aprendizagem. A direção do módulo LV varia por meio deste, definido em 7,5º (ou fração). Obtido por meio da divisão do ângulo de 180 graus em 24 partes iguais (18/24 = 7.5)
 * **I:** Variação Angular Total do vetor. Varia conforme as avaliações do Professor/Tutor.
 * **θ:** nota mínima OU nota máxima.
 * **LVx:** Expressa a nota em cada atividade.
