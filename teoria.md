@@ -29,10 +29,10 @@ Os LVs reúnem aspectos qualitativos e quantitativos no acompanhamento de desemp
 
 ## TERMOS E DEFINICOES
 
-* **α:** Ângulo que representa o passo padrão de aprendizagem. A direção do módulo LV varia por meio deste, definido em 7,5º (ou fração). Obtido por meio da divisão do ângulo de 180 graus em 24 partes iguais (18/24 = 7.5)
+* **α:** Ângulo que representa o passo padrão de aprendizagem. A direção do módulo LV varia por meio deste, definido em 7,5° (ou fração). Obtido por meio da divisão do ângulo de 180 graus em 24 partes iguais (18/24 = 7.5)
 * **I:** Variação Angular Total do vetor. Varia conforme as avaliações do Professor/Tutor.
-* **θ:** nota mínima OU nota máxima.
-* **LVx:** Expressa a nota em cada atividade.
+* **θ:** nota mínima OU nota máxima. Varia de -90° (nota mínima) até 0° (nota máxima)
+* **LVx:** Expressa a nota em cada atividade. Varia de 0 a 10.
 * **LVy:** Relaciona-se à negatividade do seu desempenho.
 * **Fator β:** Métrica qualitativa não-linear para suporte ao acompanhamento da aprendizagem do aluno. Sua unidade de medida é o mili LV (mLV), de valor máximo  β ≥ 3,78, ou 378 mLV (valor limítrofe a partir do qual se espera encontrar os alunos de “Muito Alto” desempenho, ou seja, alunos com pleno domínio das atividades apresentadas.)
 * **Positividade:** É o somatório das projeções horizontais das notas nas Atividades (∑ LVx), acrescido do somatório do Número de Gifs de cor Azul, Verde e Amarela, respectivamente ponderados e associados às menções qualitativas “Muito Bom” (Gif Azul - peso 3), “Bom” (Gif Verde - peso 2) ou “Regular” (Gif Amarelo - peso 1).
