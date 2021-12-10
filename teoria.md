@@ -167,6 +167,22 @@ for n in range(0, 25):
   print("n: " + str(n) + ", i: " + str(i) + ", LVx: " + str(lvx) + ", nota: " + str(nota))
 ```
 
+PHP
+
+```php
+<?php
+echo "Cálculo de LVx e nota";
+$a = 7.5;
+for ($n = 0; $n < 25; $n++) {
+  $i = ($n/2) * 7.5;
+  $cosseno = cos(  deg2rad(-12 * $a + $i)  );
+  $lvx = 10 * $cosseno;
+  $nota = round($lvx, 2);
+  echo "n: ", $n, ", i: ", $i, ", LVx: ", $lvx, ", nota: ", $nota, "\n";
+}
+?>
+```
+
 Exemplo 1:
 
 ```
